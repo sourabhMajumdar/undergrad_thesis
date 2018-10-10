@@ -19,9 +19,9 @@ My undergraduate thesis tries to adress the problem by suggesting an end-to-end 
 
 Currently my project is inspired from the following papers
 
-1. [**Memory Networks**](<https://arxiv.org/abs/1410.3916>)
-2. [**End to End Memory Networks**](<https://arxiv.org/abs/1503.08895>)
-3. [**Dialog Self Play**](<https://arxiv.org/abs/1801.04871>)
+1. [ **Memory Networks** ](<https://arxiv.org/abs/1410.3916>)
+2. [ **End to End Memory Networks** ](<https://arxiv.org/abs/1503.08895>)
+3. [ **Dialog Self Play** ](<https://arxiv.org/abs/1801.04871>)
 
 ### Architecture
 
@@ -30,4 +30,4 @@ To create the data I take inspiration from the third link.
 
 ### Contact
 
-Feel free to contact me at [**Sourabh Majumdar**](<mailto:msourabh970320@gmail.com>)
+Feel free to contact me at [ **Sourabh Majumdar** ](<mailto:msourabh970320@gmail.com>)
