@@ -21,7 +21,8 @@ Currently my project is inspired from the following papers
 
 1. [ **Memory Networks** ](<https://arxiv.org/abs/1410.3916>)
 2. [ **End to End Memory Networks** ](<https://arxiv.org/abs/1503.08895>)
-3. [ **Dialog Self Play** ](<https://arxiv.org/abs/1801.04871>)
+3. [ **Learning End to End Dialog** ](<https://arxiv.org/abs/1605.07683>)
+4. [ **Dialog Self Play** ](<https://arxiv.org/abs/1801.04871>)
 
 ### Architecture
 
