@@ -18,7 +18,7 @@ My undergraduate thesis tries to adress the problem by suggesting an end-to-end 
 
 ### Models Used 
 
-The main models used for this experiment are the baselines from the paper [ **Learning End to End Dialog** ](<https://arxiv.org/abs/1605.07683>) and the my model proposed based on the [**End to End Memory Networks **](<https://arxiv.org/abs/1503.08895>)
+The main models used for this experiment are the baselines from the paper [ **Learning End to End Dialog** ](<https://arxiv.org/abs/1605.07683>) and the my model proposed based on the [ **End to End Memory Networks** ](<https://arxiv.org/abs/1503.08895>)
 
 The code for all the models are deescribed in the respective folder
 
