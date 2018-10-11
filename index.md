@@ -15,6 +15,17 @@ To summarize, today's machine learning systems are highly advanced to communicat
 
 My undergraduate thesis tries to adress the problem by suggesting an end-to-end architecture that tries to solve both of these problems.
 
+
+### Models Used 
+
+The main models used for this experiment are the baselines from the paper [ **Learning End to End Dialog** ](<https://arxiv.org/abs/1605.07683>) and the my model proposed based on the [**End to End Memory Networks **](<https://arxiv.org/abs/1503.08895>)
+
+The code for all the models are deescribed in the respective folder
+
+### Data for the Experiment
+
+The Data for this experiment was inspired from the paper [ **Dialog Self Play** ](<https://arxiv.org/abs/1801.04871>) proposed by google.
+
 ### Resources
 
 Currently my project is inspired from the following papers
