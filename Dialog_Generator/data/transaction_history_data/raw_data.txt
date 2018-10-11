@@ -1,0 +1,2054 @@
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Credit,Checkin
+Bot : You have the following accounts : Credit,Checkin , which one do you wish ?
+User : Credit
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Tahir
+API_RESP : inform list_of_accounts : Savings,Credit
+Bot : You have the following accounts : Savings,Credit , which one do you wish ?
+User : let's see Credit
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Tahir,Serra,Simone,Vevake
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Tahir,Serra,Simone,Vevake
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Credit,Savings
+Bot : You have the following accounts : Credit,Savings , which one do you wish ?
+User : use Credit
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit debit Matteo
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Credit,Savings
+Bot : You have the following accounts : Credit,Savings , which one do you wish ?
+User : let's see Credit
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Tahir,Vevake,Serra,Samuel
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Matteo
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : it's Savings
+Bot : Which information should I give credit or debit ?
+User : I want information about credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings credit Vevake
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Samuel
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : let's see Credit
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Tahir,Serra,Sourabh
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Tahir,Serra,Sourabh
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Checkin,Credit
+Bot : You have the following accounts : Checkin,Credit , which one do you wish ?
+User : Checkin
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Vevake
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : let's see Credit
+Bot : Which information should I give credit or debit ?
+User : I want information about credit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Tahir
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : it's Savings
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Simone,Tahir,Samuel,Matteo
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : Checkin
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin debit Matteo
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Checkin,Credit
+Bot : You have the following accounts : Checkin,Credit , which one do you wish ?
+User : Checkin
+Bot : Which information should I give credit or debit ?
+User : I want information about credit
+Bot : Can I ask what is the name of the partner ?
+User : Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Sourabh
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : it's Savings
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings debit Serra
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Savings,Credit
+Bot : You have the following accounts : Savings,Credit , which one do you wish ?
+User : my Savings account
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Tahir,Samuel
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Tahir,Samuel
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Credit,Checkin
+Bot : You have the following accounts : Credit,Checkin , which one do you wish ?
+User : Credit
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake,Simone,Tahir,Sourabh,Matteo,Samuel
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake,Simone,Tahir,Sourabh,Matteo,Samuel
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake,Simone,Tahir,Sourabh,Matteo,Samuel
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake,Simone,Tahir,Sourabh,Matteo,Samuel
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : use Credit
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit debit Samuel
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Serra
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : use Checkin
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin debit Vevake
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : it's Checkin
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Samuel
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : it's Checkin
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Tahir,Matteo
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Tahir,Matteo
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Tahir,Matteo
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Tahir,Matteo
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Tahir
+API_RESP : inform list_of_accounts : Credit,Checkin
+Bot : You have the following accounts : Credit,Checkin , which one do you wish ?
+User : use Credit
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit debit Sourabh
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Savings,Credit
+Bot : You have the following accounts : Savings,Credit , which one do you wish ?
+User : use Credit
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : I choose None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Marco
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Credit,Savings
+Bot : You have the following accounts : Credit,Savings , which one do you wish ?
+User : Savings
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh,Serra,Marco,Tahir,Simone
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : use Savings
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings debit Samuel
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Checkin,Credit
+Bot : You have the following accounts : Checkin,Credit , which one do you wish ?
+User : use Credit
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit debit Simone
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : it's Checkin
+Bot : Which information should I give credit or debit ?
+User : I want information about credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin credit Marco
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Sourabh
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : my Credit account
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Vevake
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Savings,Credit
+Bot : You have the following accounts : Savings,Credit , which one do you wish ?
+User : it's Savings
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings credit Simone
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Tahir
+API_RESP : inform list_of_accounts : Credit,Savings
+Bot : You have the following accounts : Credit,Savings , which one do you wish ?
+User : use Credit
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit debit Matteo
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Samuel
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : my Savings account
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings debit Tahir
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Savings,Credit
+Bot : You have the following accounts : Savings,Credit , which one do you wish ?
+User : my Savings account
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Tahir,Matteo,Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Tahir,Matteo,Marco
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : let's see Checkin
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Tahir
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Sourabh
+API_RESP : inform list_of_accounts : Checkin,Credit
+Bot : You have the following accounts : Checkin,Credit , which one do you wish ?
+User : my Credit account
+Bot : Which information should I give credit or debit ?
+User : I want information about credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit credit Simone
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Serra
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : let's see Savings
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Simone,Samuel,Sourabh,Vevake,Tahir,Serra,Marco
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Sourabh
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : use Checkin
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin credit Serra
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Tahir
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : Credit
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh,Tahir,Vevake,Samuel
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : my Savings account
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : I choose None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : I choose None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Serra
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : it's Savings
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Serra
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Serra
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Serra
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Serra
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : Checkin
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin debit Vevake
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Tahir
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : Checkin
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin credit Marco
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : it's Checkin
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin credit Simone
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Sourabh
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : let's see Savings
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : I choose None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Tahir
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : use Savings
+Bot : Which information should I give credit or debit ?
+User : I want information about credit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings credit Sourabh
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : let's see Credit
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit debit Tahir
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : it's Savings
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings debit Tahir
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : my Savings account
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake,Samuel
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : it's Checkin
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin debit Serra
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : let's see Savings
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake,Samuel,Simone
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Samuel
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : let's see Checkin
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Tahir,Sourabh
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Matteo
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : let's see Savings
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings debit Sourabh
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Sourabh
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : use Credit
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit credit Matteo
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Serra
+API_RESP : inform list_of_accounts : Checkin,Credit
+Bot : You have the following accounts : Checkin,Credit , which one do you wish ?
+User : my Checkin account
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake,Sourabh,Simone,Tahir,Serra,Matteo
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake,Sourabh,Simone,Tahir,Serra,Matteo
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : let's see None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake,Sourabh,Simone,Tahir,Serra,Matteo
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Samuel
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : let's see Savings
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Simone,Vevake,Marco,Samuel,Matteo
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Samuel
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : use Checkin
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Matteo
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Matteo
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : let's see None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Matteo
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Sourabh
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : let's see Checkin
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Credit,Savings
+Bot : You have the following accounts : Credit,Savings , which one do you wish ?
+User : it's Credit
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit debit Serra
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : my Checkin account
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin debit Tahir
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Samuel
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : Credit
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Simone,Sourabh
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Credit,Checkin
+Bot : You have the following accounts : Credit,Checkin , which one do you wish ?
+User : it's Credit
+Bot : Which information should I give credit or debit ?
+User : I want information about credit
+Bot : Can I ask what is the name of the partner ?
+User : Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit credit Sourabh
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Serra
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : let's see Credit
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Matteo,Serra
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Matteo
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : my Checkin account
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh,Tahir,Samuel
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : let's see Checkin
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin debit Matteo
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Samuel
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : Savings
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings credit Tahir
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Checkin,Credit
+Bot : You have the following accounts : Checkin,Credit , which one do you wish ?
+User : it's Checkin
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin debit Tahir
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Credit,Checkin
+Bot : You have the following accounts : Credit,Checkin , which one do you wish ?
+User : it's Checkin
+Bot : Which information should I give credit or debit ?
+User : I want information about credit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Matteo
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : use Checkin
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin credit Simone
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : let's see Credit
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh,Matteo,Samuel,Vevake
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh,Matteo,Samuel,Vevake
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : let's see None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh,Matteo,Samuel,Vevake
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : I choose None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh,Matteo,Samuel,Vevake
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh,Matteo,Samuel,Vevake
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : it's Savings
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings credit Simone
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Tahir
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : let's see Checkin
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin debit Matteo
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Savings,Credit
+Bot : You have the following accounts : Savings,Credit , which one do you wish ?
+User : Credit
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit credit Tahir
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : my Checkin account
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Samuel
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : use Checkin
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin credit Marco
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : Savings
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings credit Sourabh
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Checkin,Credit
+Bot : You have the following accounts : Checkin,Credit , which one do you wish ?
+User : use Credit
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh,Serra,Matteo,Vevake,Simone
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh,Serra,Matteo,Vevake,Simone
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Savings,Credit
+Bot : You have the following accounts : Savings,Credit , which one do you wish ?
+User : Savings
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Simone,Matteo,Vevake,Marco,Samuel
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Simone,Matteo,Vevake,Marco,Samuel
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra,Simone,Matteo,Vevake,Marco,Samuel
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Sourabh
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : use Savings
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Tahir,Simone,Serra,Vevake,Matteo
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : I choose None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Tahir,Simone,Serra,Vevake,Matteo
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Serra
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : let's see Savings
+Bot : Which information should I give credit or debit ?
+User : I want information about credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings credit Matteo
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Tahir
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : my Checkin account
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin credit Samuel
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Samuel
+API_RESP : inform list_of_accounts : Checkin
+Bot : You have the following accounts : Checkin , which one do you wish ?
+User : Checkin
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Simone,Sourabh
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Credit,Checkin
+Bot : You have the following accounts : Credit,Checkin , which one do you wish ?
+User : it's Credit
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit credit Tahir
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : use Savings
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake,Matteo,Simone,Serra,Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake,Matteo,Simone,Serra,Marco
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : my Savings account
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings credit Serra
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Samuel
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : it's Checkin
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Serra
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Checkin,Credit
+Bot : You have the following accounts : Checkin,Credit , which one do you wish ?
+User : Credit
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Sourabh
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : let's see None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Sourabh
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Sourabh
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Sourabh
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Sourabh
+API_RESP : inform list_of_accounts : Checkin,Credit
+Bot : You have the following accounts : Checkin,Credit , which one do you wish ?
+User : my Checkin account
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin credit Samuel
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Tahir
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : it's Credit
+Bot : Which information should I give credit or debit ?
+User : I want information about credit
+Bot : Can I ask what is the name of the partner ?
+User : Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Samuel,Serra,Simone,Tahir,Marco,Matteo,Sourabh
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Samuel,Serra,Simone,Tahir,Marco,Matteo,Sourabh
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Serra
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : use Checkin
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Matteo
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Matteo
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Matteo
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : my Checkin account
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Serra
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : let's see Credit
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit debit Matteo
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Matteo
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : it's Checkin
+Bot : Which information should I give credit or debit ?
+User : I want information about credit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Marco,Samuel,Serra
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Samuel
+API_RESP : inform list_of_accounts : Credit,Savings
+Bot : You have the following accounts : Credit,Savings , which one do you wish ?
+User : let's see Credit
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Matteo
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Matteo
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : it's about None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Matteo
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Samuel
+API_RESP : inform list_of_accounts : Checkin,Credit
+Bot : You have the following accounts : Checkin,Credit , which one do you wish ?
+User : use Credit
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Samuel,Simone,Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : the partner is None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Samuel,Simone,Marco
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : let's see None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Samuel,Simone,Marco
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Serra
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : use Savings
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings debit Sourabh
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : it's Savings
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings debit Samuel
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Serra
+API_RESP : inform list_of_accounts : Savings,Checkin
+Bot : You have the following accounts : Savings,Checkin , which one do you wish ?
+User : use Savings
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : the partner is Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Matteo,Marco,Samuel,Tahir,Vevake
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Checkin,Credit
+Bot : You have the following accounts : Checkin,Credit , which one do you wish ?
+User : use Checkin
+Bot : Which information should I give credit or debit ?
+User : I want information about credit
+Bot : Can I ask what is the name of the partner ?
+User : Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform destination_name_check : success
+Bot : api_call Checkin credit Sourabh
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Simone
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : it's Savings
+Bot : Which information should I give credit or debit ?
+User : credit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh,Tahir
+User : accept
+Bot : Can I ask what is the name of the partner ?
+User : I choose None
+API : destination_name_check destination_name:None
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Sourabh,Tahir
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Matteo
+API_RESP : inform list_of_accounts : Credit
+Bot : You have the following accounts : Credit , which one do you wish ?
+User : it's Credit
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform destination_name_check : success
+Bot : api_call Credit credit Samuel
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Checkin,Savings
+Bot : You have the following accounts : Checkin,Savings , which one do you wish ?
+User : use Savings
+Bot : Which information should I give credit or debit ?
+User : I want information about debit
+Bot : Can I ask what is the name of the partner ?
+User : it's about Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings debit Simone
+API_RESP : inform api_call : failed
+Bot : end_call error in processing request !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Serra
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : use Savings
+Bot : Which information should I give credit or debit ?
+User : let's see debit
+Bot : Can I ask what is the name of the partner ?
+User : Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings debit Vevake
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+API : request_accounts accounts:Marco
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : use Savings
+Bot : Which information should I give credit or debit ?
+User : let's see credit
+Bot : Can I ask what is the name of the partner ?
+User : let's see Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform destination_name_check : failed
+Bot : The recipient you provided is not registered, available list of recipients are : Vevake,Serra,Marco,Simone
+User : reject
+Bot : end_call User denied to change destination name
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+API : request_accounts accounts:Vevake
+API_RESP : inform list_of_accounts : Savings
+Bot : You have the following accounts : Savings , which one do you wish ?
+User : use Savings
+Bot : Which information should I give credit or debit ?
+User : debit
+Bot : Can I ask what is the name of the partner ?
+User : I choose Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform destination_name_check : success
+Bot : api_call Savings debit Serra
+API_RESP : inform api_call : success
+Bot : end_call api_call successful !!
+

@@ -1,0 +1,4500 @@
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 2400 to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 1600 to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Credit to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Savings to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 1200	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 800 to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 200 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 9000	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Savings to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Savings to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Savings to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Checkin to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 200 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 200	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 9000 to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Credit to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 800 from my Checkin to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 9000 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 2400 to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 800 from my Credit to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 4500 to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1200 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Credit to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 9000	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Checkin to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Credit to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 800 from my Credit to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Savings to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1600 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 1200 to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 9000	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Savings to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 9000 to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 1600 to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Credit to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 9000	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Credit to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Checkin to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 1200	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Checkin to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Savings to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Credit to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Credit to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Savings to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 2400 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Checkin to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 4500	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Checkin to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Savings to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Checkin to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Savings to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1600 from my Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 2400	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Checkin to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 9000 to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 800	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 2400 to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 1600 to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 9000 from my Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 4500 from my Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Credit to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Savings to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Checkin to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Checkin to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 4500 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 2400 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 4500 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 1200	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Credit to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Credit to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 4500	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 2400 from my Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Checkin to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 200 to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Credit to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Credit to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Savings to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 9000 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 200 to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 2400	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Checkin to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 800	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Checkin to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Credit to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Credit to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 4500	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 1200 to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Credit to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 9000 from my Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 1200	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Savings to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 2400 to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Checkin to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 2400 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Savings to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 1200 to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 800 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Savings to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 800 to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Checkin to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Checkin to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 1600 to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 1200 to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Savings to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 200 from my Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Savings to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 9000 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Checkin to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Credit to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Credit to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Checkin to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Savings to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 800 from my Savings to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Checkin to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Checkin to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 9000 to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Credit to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 200 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Savings to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Checkin to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Credit to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Checkin to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 9000 to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 800 to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Checkin to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Credit to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Savings to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 2400	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Savings to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Credit to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Credit to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 1200	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 800 from my Credit to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 1600	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1200 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 9000 to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 200 to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 800	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 4500 to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 9000 to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 9000 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Savings to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 1600 to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 800 from my Savings to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1600 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1200 from my Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Credit to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 200 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 800 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 2400 to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 800 from my Savings to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Checkin to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 1600	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 200 to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 800 from my Checkin to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Credit to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 9000 to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 2400 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Savings to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Savings to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Credit to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Checkin to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 4500 to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Savings to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Checkin to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1600 from my Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Checkin to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Credit to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 1600	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Credit to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Credit to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 200 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Credit to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 2400	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Savings to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Checkin to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Savings to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 9000	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Checkin to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Savings to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1600 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Credit to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 2400	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Credit to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Checkin to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Savings to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 800	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Checkin to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Checkin to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 800	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 1600	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 200 to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 9000 to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1600 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Savings to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 9000 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1600 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 200	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Credit to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Savings to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 9000 to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Checkin to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 4500 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 800	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Checkin to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 4500 to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Checkin to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 800 from my Checkin to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1600 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 1600	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Credit to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Credit to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 800	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 4500 to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Checkin to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Savings to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 800	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 4500 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Checkin to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Savings to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 9000	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Credit to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Savings to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 200	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Credit to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 200	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Credit to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 9000	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Checkin to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1200 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Savings to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 1600	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1600 from my Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 800 from my Credit to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Credit to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 2400 to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1200 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 4500 from my Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Checkin to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Checkin to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 1600 to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 9000 to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 4500 to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Checkin to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Credit to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Credit to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Savings to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Savings to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Checkin to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 800 to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 200 to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 800 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Credit to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Credit to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 2400 from my Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Credit to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 9000 to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Credit to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Savings to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 2400 to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Checkin to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Checkin to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 4500 from my Savings to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1600 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 800 from my Credit to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Credit to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1200 from my Savings to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Vevake	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 4500 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money to Serra	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Savings to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Savings to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 800 to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 9000 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 1600 from my Savings to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 9000 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 2400 from my Savings to Marco	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Credit to Simone	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please Transfer money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1200 from my Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 9000 from my Savings to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 1600 to Samuel	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send Money	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer 200 from my Checkin to Matteo	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 200 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 4500	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 800	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to make a money transaction	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 I want to transfer money from my Checkin to Tahir	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 1600 from my Savings	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer money please	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can you transfer some money ?	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Please transfer 4500 from my Credit	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Send money from Checkin	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Could you please transfer 1200 to Sourabh	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Transfer 800	mem_call:transaction
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Savings	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can you display my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Checkin account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know the amount of money with me right now.	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 How much money am I carrying right now ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I want to see my account balance ?	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Show me my account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Savings account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my Credit account balance	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to know my account balance for Checkin	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 Please show me account balance for Credit	mem_call:account_balance
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Credit to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Credit to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Credit to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Sourabh	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Credit to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to seem my transaction history from Credit	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Credit to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Checkin to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Savings to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Savings to Tahir	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history from Checkin	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Samuel	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history to Vevake	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Marco	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my credit transaction history	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my transaction history from Checkin to Simone	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my debit transaction history from Savings	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Serra	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 I would like to see my {credit_debit } transaction history from Credit to Matteo	mem_call:transaction_history
+
+1 <SILENCE>	how can i help you today ?
+2 Can I see my transaction history ?	mem_call:transaction_history
+

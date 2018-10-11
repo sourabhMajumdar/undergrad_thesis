@@ -1,0 +1,1500 @@
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 200 from my Savings for Samuel
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to make a money transaction
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send Money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 2400 from my Checkin for Simone
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 1200 from my Savings for Simone
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : transfer money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 1200 from my Credit for Marco
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take some money from my Credit for Sourabh
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I need to make a transaction
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to transfer money from my Credit to Simone
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take some money from my Credit for Serra
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 200 from my Checkin for Simone
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 4500
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money to Simone
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 200 from my Credit for Simone
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 2400 from my Savings for Sourabh
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 2400 from my Credit to Sourabh
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I need to transfer money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money from Credit
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Could you please transfer 800 to Samuel
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 9000 from my Credit to Sourabh
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : transfer money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send Money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer 4500
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 1200
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer some money ?
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 9000 to Marco
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 9000 to Samuel
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money from Credit
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 4500 from my Savings to Tahir
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer 1200 from my Savings
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send some money to Marco
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 2400 from my Checkin to Marco
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 4500 to Serra
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 9000 from my Credit to Simone
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send some money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer 1200
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 800 from my Savings for Simone
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 1200 from my Checkin
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : transfer money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 200 from my Savings
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take some money from my Checkin for Marco
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 200 from my Credit to Simone
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 9000 from my Savings for Matteo
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 2400 from my Savings for Matteo
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 200 from my Checkin to Sourabh
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 2400 from my Credit for Serra
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 800 from my Savings to Marco
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 4500
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please Transfer money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 1600 from my Credit
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 1600 from my Credit to Vevake
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money to Sourabh
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please Transfer money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 800 to Tahir
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money from Savings
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer 800
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money to Serra
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to make a money transaction
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money from Checkin
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 200 from my Checkin to Vevake
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I need to make a transaction
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send Money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 800 to Marco
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money from Savings
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer 4500 from my Savings
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 1600 from my Credit
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 9000 from my Checkin to Sourabh
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 200 from my Credit to Sourabh
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 800 from my Savings to Matteo
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Could you please transfer 1200 to Tahir
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 200 from my Credit to Matteo
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please Transfer money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer 1200
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to transfer money from my Savings to Samuel
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 4500 to Sourabh
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer 800 from my Savings
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 1600 from my Savings for Simone
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money to Marco
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take some money from my Credit for Simone
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Could you please transfer 1200 to Matteo
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 9000 to Marco
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 2400 from my Savings to Marco
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer money please
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send Money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 1600 from my Checkin for Samuel
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I need to make a transaction
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 4500 from my Savings to Tahir
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer 1600 from my Checkin to Simone
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send some money to Tahir
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer 4500 from my Checkin
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 1200 from my Checkin for Serra
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer 1200 from my Checkin
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take 1600 from my Credit for Matteo
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take some money from my Credit for Marco
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : transfer money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I need to transfer money
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to transfer money from my Savings to Samuel
+Bot : mem_call:transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money do I have?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money there is on my acount?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : What is my account balance?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can I see my Checkin account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance for Credit
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Savings account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : What is my account balance?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can I see my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can I see my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can I see my Checkin account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Checkin account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money do I have?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Checkin account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance for Credit
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money there is on my acount?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please show me account balance for Credit
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance for Checkin
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Savings account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance for Checkin
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Checkin account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money there is on my acount?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money do I have?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money do I have?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money there is on my acount?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can I see my Checkin account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please show me account balance for Savings
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money do I have?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money there is on my acount?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : What is my account balance?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can I see my Checkin account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please show me account balance for Checkin
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : What is my account balance?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money do I have?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Savings account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money there is on my acount?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money do I have?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Savings account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance for Credit
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can I see my Savings account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can I see my Savings account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money do I have?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can I see my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money there is on my acount?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance for Savings
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Savings account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : What is my account balance?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : What is my account balance?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can I see my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Savings account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance for Savings
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money do I have?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please show me account balance for Checkin
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please show me account balance for Credit
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Savings account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money do I have?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Savings account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : What is my account balance?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can I see my Checkin account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money do I have?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : What is my account balance?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : What is my account balance?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Checkin account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can I see my Savings account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my account balance for Credit
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money there is on my acount?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Credit account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : How much money there is on my acount?
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my Checkin account balance
+Bot : mem_call:account_balance
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to seem my transaction history from Credit
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Serra
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Checkin to Matteo
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Savings to Simone
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my credit transaction history from Savings
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history from Checkin to Simone
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Checkin to Vevake
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Savings to Sourabh
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history from Savings to Samuel
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Credit to Serra
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to seem my transaction history from Credit
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my debit transaction history from Savings
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Savings to Serra
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my credit transaction history from Savings
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Checkin to Marco
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history to Simone
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my credit transaction history from Savings
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Credit to Tahir
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Samuel
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to seem my transaction history from Credit
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Samuel
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Serra
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to seem my transaction history from Credit
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Savings to Sourabh
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Credit to Marco
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history to Vevake
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Savings to Sourabh
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history to Vevake
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Serra
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my credit transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Checkin to Sourabh
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Vevake
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history from Savings to Samuel
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to seem my transaction history from Checkin
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history from Credit to Marco
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history to Serra
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Savings to Marco
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Vevake
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my debit transaction history from Credit
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Sourabh
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my credit transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Credit to Serra
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to seem my transaction history from Savings
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my debit transaction history from Checkin
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history from Savings to Matteo
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Marco
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history to Marco
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Sourabh
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Credit to Marco
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Simone
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Savings to Tahir
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Checkin to Simone
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history to Samuel
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my debit transaction history from Credit
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Checkin to Sourabh
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my debit transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Savings to Tahir
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my credit transaction history from Checkin
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history to Marco
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history to Matteo
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to seem my transaction history from Credit
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Matteo
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my credit transaction history from Savings
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history to Sourabh
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history to Tahir
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Savings to Serra
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to know my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Serra
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history from Checkin to Serra
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my {credit_debit } transaction history to Serra
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history from Credit to Serra
+Bot : mem_call:transaction_history
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to see my transaction history
+Bot : mem_call:transaction_history
+

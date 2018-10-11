@@ -1,0 +1,1836 @@
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 1600 from my Checkin
+API : initial_slots_check  user_account:Checkin,amount:1600
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : amount_check user_account:Checkin , amount:1600
+API_RESP : inform limit:1000,balance:1300,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 1300 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money to Simone
+API : initial_slots_check  destination_name:Simone
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:failed, message:'available list of names :Samuel,Tahir,Matteo,Serra,Marco,Vevake,Sourabh
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Samuel,Tahir,Matteo,Serra,Marco,Vevake,Sourabh, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Could you please transfer 4500 to Marco
+API : initial_slots_check  amount:4500,destination_name:Marco
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : from my Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+API : amount_check  user_account:Savings amount:4500
+API_RESP : inform limit:1000,balance:8000,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 8000 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer {amount_transaction} from my Checkin
+API : initial_slots_check  user_account:Checkin,amount:1600
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : take from Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer some money ?
+Bot : From which account ?
+User : Prefer the Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send this money to Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : Send 800
+API : amount_check user_account:Credit amount:800
+API_RESP : inform limit:1000,balance:400,max_transferable_amt:400, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 400 so the maximum you can transfer is 400, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money to Sourabh
+API : initial_slots_check  destination_name:Sourabh
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform api_result:failed, message:'available list of names :Simone,Samuel
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Simone,Samuel, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Samuel is the recipient
+API : destination_name_check destination_name:Samuel
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : use the Credit for the transaction
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : It is 1600
+API : amount_check user_account:Credit amount:1600
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Credit, destination_name:Samuel, amount:1600
+API_RESP : inform api_result:success
+Bot : end_call transaction conducted successfully, ciao !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 800
+API : initial_slots_check  amount:800
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : take money from Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+API : amount_check  user_account:Checkin amount:800
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send it to the account of Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform api_result:failed, message:'available list of names :Simone
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Simone, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform api_result:failed, message:'available list of names :Simone
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Simone, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : it's for Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:failed, message:'available list of names :Simone
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Simone, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send them to Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform api_result:failed, message:'available list of names :Simone
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Simone, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer 2400 from my Savings
+API : initial_slots_check  amount:2400,user_account:Savings
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : amount_check user_account:Savings , amount:2400
+API_RESP : inform limit:2000,balance:8000,max_transferable_amt:2000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 2000 and your current balance is 8000 so the maximum you can transfer is 2000, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money from Checkin
+API : initial_slots_check  user_account:Checkin
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 800 to Simone
+API : initial_slots_check  destination_name:Simone,amount:800
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : from my Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : withdraw from Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+API : amount_check  user_account:Savings amount:800
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money from Checkin
+API : initial_slots_check  user_account:Checkin
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : use the Savings for the transaction
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : take from Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send it to the account of Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform api_result:failed, message:'available list of names :Matteo,Vevake,Tahir
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Matteo,Vevake,Tahir, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Vevake is the receiver
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : Send 200
+API : amount_check user_account:Credit amount:200
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money from Checkin
+API : initial_slots_check  user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send this money to Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:failed, message:'available list of names :Sourabh,Samuel,Tahir,Vevake
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Sourabh,Samuel,Tahir,Vevake, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send them to Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:failed, message:'available list of names :Sourabh,Samuel,Tahir,Vevake
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Sourabh,Samuel,Tahir,Vevake, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send it to the account of Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform api_result:failed, message:'available list of names :Sourabh,Samuel,Tahir,Vevake
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Sourabh,Samuel,Tahir,Vevake, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money from Checkin
+API : initial_slots_check  user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send this money to Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : 1200 euros
+API : amount_check user_account:Checkin amount:1200
+API_RESP : inform limit:1000,balance:3000,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 3000 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer 1200 from my Credit
+API : initial_slots_check  amount:1200,user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : The money is for Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform api_result:failed, message:'available list of names :Serra
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Serra, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take some money from my Credit for Simone
+API : initial_slots_check  destination_name:Simone,user_account:Credit
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:failed, message:'available list of names :Serra,Matteo,Tahir,Sourabh,Samuel
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Serra,Matteo,Tahir,Sourabh,Samuel, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money from Credit
+API : initial_slots_check  user_account:Credit
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : I select Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer 800
+API : initial_slots_check  amount:800
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : use Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+API : amount_check  user_account:Credit amount:800
+API_RESP : inform limit:2000,balance:400,max_transferable_amt:400, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 2000 and your current balance is 400 so the maximum you can transfer is 400, would you like to reduce your amount to this amount ?
+User : accept
+Bot : who is the recipient ?
+User : Send them to Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform api_result:failed, message:'available list of names :Simone,Sourabh,Tahir,Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Simone,Sourabh,Tahir,Marco, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : I choose Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Credit, destination_name:Tahir, amount:400
+API_RESP : inform api_result:success
+Bot : end_call transaction conducted successfully, ciao !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money to Marco
+API : initial_slots_check  destination_name:Marco
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Marco
+API_RESP : inform api_result:failed, message:'available list of names :Matteo,Sourabh,Tahir,Serra,Vevake
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Matteo,Sourabh,Tahir,Serra,Vevake, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send it to the account of Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : my Checkin account
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 200
+API : initial_slots_check  amount:200
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : use the Credit for the transaction
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : withdraw from Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+API : amount_check  user_account:Checkin amount:200
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : the recipient is Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Checkin, destination_name:Vevake, amount:200
+API_RESP : inform api_result:success
+Bot : end_call transaction conducted successfully, ciao !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : transfer money
+Bot : From which account ?
+User : I select Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send some money
+Bot : From which account ?
+User : Prefer the Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send Money
+Bot : From which account ?
+User : from my Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : the recipient is Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : let's make 1600
+API : amount_check user_account:Credit amount:1600
+API_RESP : inform limit:1000,balance:3000,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 3000 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : accept
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Credit, destination_name:Serra, amount:1000
+API_RESP : inform api_result:failed
+Bot : end_call error in processing transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money from Checkin
+API : initial_slots_check  user_account:Checkin
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 1200 to Samuel
+API : initial_slots_check  destination_name:Samuel,amount:1200
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : take from Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer {amount_transaction} from my Checkin
+API : initial_slots_check  user_account:Checkin,amount:9000
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings,Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings,Credit, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 200
+API : initial_slots_check  amount:200
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : take money from Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer {amount_transaction} from my Savings
+API : initial_slots_check  user_account:Savings,amount:4500
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit,Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit,Checkin, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : my Credit account
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+API : amount_check  user_account:Credit amount:4500
+API_RESP : inform limit:5000,balance:400,max_transferable_amt:400, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 5000 and your current balance is 400 so the maximum you can transfer is 400, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I need to make a transaction
+Bot : From which account ?
+User : take from Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : it's for Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform api_result:failed, message:'available list of names :Samuel,Matteo,Vevake,Tahir,Sourabh,Simone,Serra
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Samuel,Matteo,Vevake,Tahir,Sourabh,Simone,Serra, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send it to the account of Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : roughly 1200
+API : amount_check user_account:Credit amount:1200
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money to Sourabh
+API : initial_slots_check  destination_name:Sourabh
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : withdraw from Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : my Savings account
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : use the Checkin for the transaction
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send Money
+Bot : From which account ?
+User : use Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer 4500
+API : initial_slots_check  amount:4500
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : take from Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+API : amount_check  user_account:Credit amount:4500
+API_RESP : inform limit:1000,balance:1300,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 1300 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : accept
+Bot : who is the recipient ?
+User : it's for Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform api_result:failed, message:'available list of names :Simone
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Simone, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : The money is for Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:failed, message:'available list of names :Simone
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Simone, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Could you please transfer 1200 to Vevake
+API : initial_slots_check  amount:1200,destination_name:Vevake
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:failed, message:'available list of names :Marco,Sourabh
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Marco,Sourabh, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to transfer money from my Credit to Matteo
+API : initial_slots_check  destination_name:Matteo,user_account:Credit
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings,Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings,Checkin, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer {amount_transaction} from my Savings
+API : initial_slots_check  user_account:Savings,amount:2400
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : amount_check user_account:Savings , amount:2400
+API_RESP : inform limit:2000,balance:3000,max_transferable_amt:2000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 2000 and your current balance is 3000 so the maximum you can transfer is 2000, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to make a money transaction
+Bot : From which account ?
+User : use the Credit for the transaction
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : take from Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : I choose Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : 200 is ok
+API : amount_check user_account:Checkin amount:200
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer 4500
+API : initial_slots_check  amount:4500
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : I select Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : I select Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+API : amount_check  user_account:Credit amount:4500
+API_RESP : inform limit:2000,balance:400,max_transferable_amt:400, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 2000 and your current balance is 400 so the maximum you can transfer is 400, would you like to reduce your amount to this amount ?
+User : accept
+Bot : who is the recipient ?
+User : The money is for Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform api_result:failed, message:'available list of names :Serra,Simone,Vevake,Matteo,Sourabh
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Serra,Simone,Vevake,Matteo,Sourabh, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Tahir is the receiver
+API : destination_name_check destination_name:Tahir
+API_RESP : inform api_result:failed, message:'available list of names :Serra,Simone,Vevake,Matteo,Sourabh
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Serra,Simone,Vevake,Matteo,Sourabh, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money from Checkin
+API : initial_slots_check  user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : it's for Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform api_result:failed, message:'available list of names :Samuel,Sourabh,Marco,Serra
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Samuel,Sourabh,Marco,Serra, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : it's for Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform api_result:failed, message:'available list of names :Samuel,Sourabh,Marco,Serra
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Samuel,Sourabh,Marco,Serra, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer 1200
+API : initial_slots_check  amount:1200
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : use Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+API : amount_check  user_account:Checkin amount:1200
+API_RESP : inform limit:5000,balance:400,max_transferable_amt:400, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 5000 and your current balance is 400 so the maximum you can transfer is 400, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to transfer money from my Checkin to Tahir
+API : initial_slots_check  user_account:Checkin,destination_name:Tahir
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : 1200 euros
+API : amount_check user_account:Checkin amount:1200
+API_RESP : inform limit:1000,balance:400,max_transferable_amt:400, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 400 so the maximum you can transfer is 400, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 200 to Serra
+API : initial_slots_check  amount:200,destination_name:Serra
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : my Credit account
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+API : amount_check  user_account:Credit amount:200
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Credit, destination_name:Serra, amount:200
+API_RESP : inform api_result:failed
+Bot : end_call error in processing transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send some money to Simone
+API : initial_slots_check  destination_name:Simone
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:failed, message:'available list of names :Tahir,Samuel,Vevake,Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Tahir,Samuel,Vevake,Marco, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send some money to Marco
+API : initial_slots_check  destination_name:Marco
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : take from Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : take from Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : let's say 800
+API : amount_check user_account:Checkin amount:800
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 1600 to Sourabh
+API : initial_slots_check  destination_name:Sourabh,amount:1600
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform api_result:failed, message:'available list of names :Tahir
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Tahir, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 1600 to Serra
+API : initial_slots_check  destination_name:Serra,amount:1600
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:failed, message:'available list of names :Vevake,Tahir,Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Vevake,Tahir,Marco, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send them to Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : withdraw from Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+API : amount_check  user_account:Credit amount:1600
+API_RESP : inform limit:1000,balance:8000,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 8000 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : accept
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money from Checkin
+API : initial_slots_check  user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : I choose Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : 1600 euros
+API : amount_check user_account:Checkin amount:1600
+API_RESP : inform limit:5000,balance:400,max_transferable_amt:400, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 5000 and your current balance is 400 so the maximum you can transfer is 400, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please Transfer money
+Bot : From which account ?
+User : take from Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send them to Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : roughly 4500
+API : amount_check user_account:Credit amount:4500
+API_RESP : inform limit:1000,balance:400,max_transferable_amt:400, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 400 so the maximum you can transfer is 400, would you like to reduce your amount to this amount ?
+User : accept
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Credit, destination_name:Samuel, amount:400
+API_RESP : inform api_result:failed
+Bot : end_call error in processing transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money from Savings
+API : initial_slots_check  user_account:Savings
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send it to the account of Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : roughly 800
+API : amount_check user_account:Savings amount:800
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to transfer money from my Credit to Marco
+API : initial_slots_check  destination_name:Marco,user_account:Credit
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings,Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings,Checkin, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : I select Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : 200 euros
+API : amount_check user_account:Checkin amount:200
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : transfer money
+Bot : From which account ?
+User : Prefer the Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send this money to Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : let's say 4500
+API : amount_check user_account:Credit amount:4500
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer 2400
+API : initial_slots_check  amount:2400
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : take from Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings,Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings,Checkin, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : use the Checkin for the transaction
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+API : amount_check  user_account:Checkin amount:2400
+API_RESP : inform limit:1000,balance:1300,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 1300 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money from Checkin
+API : initial_slots_check  user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : I choose Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform api_result:failed, message:'available list of names :Sourabh,Tahir,Samuel,Vevake
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Sourabh,Tahir,Samuel,Vevake, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take some money from my Savings for Serra
+API : initial_slots_check  user_account:Savings,destination_name:Serra
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money from Credit
+API : initial_slots_check  user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : it's for Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : 200 euros
+API : amount_check user_account:Credit amount:200
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Credit, destination_name:Samuel, amount:200
+API_RESP : inform api_result:success
+Bot : end_call transaction conducted successfully, ciao !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take some money from my Credit for Tahir
+API : initial_slots_check  user_account:Credit,destination_name:Tahir
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Tahir
+API_RESP : inform api_result:failed, message:'available list of names :Matteo,Serra
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Matteo,Serra, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : The money is for Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform api_result:failed, message:'available list of names :Matteo,Serra
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Matteo,Serra, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send this money to Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform api_result:failed, message:'available list of names :Matteo,Serra
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Matteo,Serra, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send it to the account of Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:failed, message:'available list of names :Matteo,Serra
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Matteo,Serra, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : The money is for Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:failed, message:'available list of names :Matteo,Serra
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Matteo,Serra, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer {amount_transaction} from my Savings
+API : initial_slots_check  user_account:Savings,amount:4500
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send them to Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send Money
+Bot : From which account ?
+User : withdraw from Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin,Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin,Credit, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money
+Bot : From which account ?
+User : use the Credit for the transaction
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : The money is for Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform api_result:failed, message:'available list of names :Matteo,Serra
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Matteo,Serra, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please Transfer money
+Bot : From which account ?
+User : my Credit account
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send it to the account of Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : 200 is ok
+API : amount_check user_account:Credit amount:200
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Credit, destination_name:Marco, amount:200
+API_RESP : inform api_result:success
+Bot : end_call transaction conducted successfully, ciao !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I need to make a transaction
+Bot : From which account ?
+User : take from Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : The money is for Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : Send 2400
+API : amount_check user_account:Savings amount:2400
+API_RESP : inform limit:2000,balance:3000,max_transferable_amt:2000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 2000 and your current balance is 3000 so the maximum you can transfer is 2000, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to make a money transaction
+Bot : From which account ?
+User : Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : take from Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : take money from Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : it's for Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:failed, message:'available list of names :Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Marco, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send them to Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform api_result:failed, message:'available list of names :Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Marco, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send Money
+Bot : From which account ?
+User : from my Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send it to the account of Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : select 4500
+API : amount_check user_account:Credit amount:4500
+API_RESP : inform limit:1000,balance:8000,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 8000 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : accept
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Credit, destination_name:Matteo, amount:1000
+API_RESP : inform api_result:failed
+Bot : end_call error in processing transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer 4500
+API : initial_slots_check  amount:4500
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : Prefer the Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+API : amount_check  user_account:Savings amount:4500
+API_RESP : inform limit:2000,balance:8000,max_transferable_amt:2000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 2000 and your current balance is 8000 so the maximum you can transfer is 2000, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money
+Bot : From which account ?
+User : my Checkin account
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : the recipient is Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform api_result:failed, message:'available list of names :Simone,Serra,Tahir,Vevake
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Simone,Serra,Tahir,Vevake, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to make a money transaction
+Bot : From which account ?
+User : from my Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin,Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin,Credit, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer 1200
+API : initial_slots_check  amount:1200
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : withdraw from Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : from my Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+API : amount_check  user_account:Savings amount:1200
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : I choose Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Savings, destination_name:Tahir, amount:1200
+API_RESP : inform api_result:failed
+Bot : end_call error in processing transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I need to transfer money
+Bot : From which account ?
+User : withdraw from Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit,Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit,Savings, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : use Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send them to Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : roughly 4500
+API : amount_check user_account:Credit amount:4500
+API_RESP : inform limit:1000,balance:400,max_transferable_amt:400, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 400 so the maximum you can transfer is 400, would you like to reduce your amount to this amount ?
+User : accept
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 2400 to Matteo
+API : initial_slots_check  amount:2400,destination_name:Matteo
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Matteo
+API_RESP : inform api_result:failed, message:'available list of names :Simone
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Simone, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Could you please transfer 4500 to Vevake
+API : initial_slots_check  amount:4500,destination_name:Vevake
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : I select Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+API : amount_check  user_account:Credit amount:4500
+API_RESP : inform limit:1000,balance:3000,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 3000 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : accept
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Credit, destination_name:Vevake, amount:1000
+API_RESP : inform api_result:success
+Bot : end_call transaction conducted successfully, ciao !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send some money
+Bot : From which account ?
+User : use Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : The money is for Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:failed, message:'available list of names :Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Marco, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 2400 from my Checkin
+API : initial_slots_check  amount:2400,user_account:Checkin
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit,Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit,Savings, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer some money ?
+Bot : From which account ?
+User : my Checkin account
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : Send 2400
+API : amount_check user_account:Checkin amount:2400
+API_RESP : inform limit:1000,balance:3000,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 3000 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send some money
+Bot : From which account ?
+User : Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send it to the account of Marco
+API : destination_name_check destination_name:Marco
+API_RESP : inform api_result:failed, message:'available list of names :Matteo,Tahir,Simone,Serra,Vevake
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Matteo,Tahir,Simone,Serra,Vevake, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send them to Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : 2400 is ok
+API : amount_check user_account:Savings amount:2400
+API_RESP : inform limit:1000,balance:400,max_transferable_amt:400, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 400 so the maximum you can transfer is 400, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money
+Bot : From which account ?
+User : use Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send this money to Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:failed, message:'available list of names :Sourabh
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Sourabh, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Can you transfer some money ?
+Bot : From which account ?
+User : I select Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin,Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin,Credit, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : my Credit account
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send it to the account of Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : It is 2400
+API : amount_check user_account:Credit amount:2400
+API_RESP : inform limit:2000,balance:400,max_transferable_amt:400, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 2000 and your current balance is 400 so the maximum you can transfer is 400, would you like to reduce your amount to this amount ?
+User : accept
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Credit, destination_name:Vevake, amount:400
+API_RESP : inform api_result:success
+Bot : end_call transaction conducted successfully, ciao !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send some money to Marco
+API : initial_slots_check  destination_name:Marco
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Marco
+API_RESP : inform api_result:failed, message:'available list of names :Samuel,Simone,Tahir
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Samuel,Simone,Tahir, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to transfer money from my Credit to Matteo
+API : initial_slots_check  user_account:Credit,destination_name:Matteo
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin,Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin,Savings, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer some money from Checkin
+API : initial_slots_check  user_account:Checkin
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit,Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit,Savings, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I need to transfer money
+Bot : From which account ?
+User : Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin,Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin,Credit, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : I select Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : I choose Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:failed, message:'available list of names :Samuel
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Samuel, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : transfer money
+Bot : From which account ?
+User : Prefer the Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send it to the account of Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:failed, message:'available list of names :Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Marco, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send this money to Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform api_result:failed, message:'available list of names :Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Marco, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer {amount_transaction} from my Savings
+API : initial_slots_check  user_account:Savings,amount:9000
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take some money from my Credit for Vevake
+API : initial_slots_check  destination_name:Vevake,user_account:Credit
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : take money from Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : use Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : withdraw from Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:failed, message:'available list of names :Serra,Matteo
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Serra,Matteo, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to transfer money from my Savings to Simone
+API : initial_slots_check  user_account:Savings,destination_name:Simone
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : roughly 1200
+API : amount_check user_account:Savings amount:1200
+API_RESP : inform limit:1000,balance:400,max_transferable_amt:400, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 400 so the maximum you can transfer is 400, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 1600 to Serra
+API : initial_slots_check  amount:1600,destination_name:Serra
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:failed, message:'available list of names :Samuel,Vevake,Matteo,Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Samuel,Vevake,Matteo,Marco, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send this money to Simone
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:failed, message:'available list of names :Samuel,Vevake,Matteo,Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Samuel,Vevake,Matteo,Marco, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send this money to Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform api_result:failed, message:'available list of names :Samuel,Vevake,Matteo,Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Samuel,Vevake,Matteo,Marco, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send this money to Tahir
+API : destination_name_check destination_name:Tahir
+API_RESP : inform api_result:failed, message:'available list of names :Samuel,Vevake,Matteo,Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Samuel,Vevake,Matteo,Marco, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Simone is the recipient
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:failed, message:'available list of names :Samuel,Vevake,Matteo,Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Samuel,Vevake,Matteo,Marco, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send some money to Vevake
+API : initial_slots_check  destination_name:Vevake
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:failed, message:'available list of names :Matteo
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Matteo, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I need to transfer money
+Bot : From which account ?
+User : Prefer the Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send it to the account of Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:failed, message:'available list of names :Vevake,Samuel,Matteo,Sourabh,Simone,Tahir,Marco
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Vevake,Samuel,Matteo,Sourabh,Simone,Tahir,Marco, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer 1600
+API : initial_slots_check  amount:1600
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : Prefer the Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Credit,Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Credit,Savings, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : my Credit account
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+API : amount_check  user_account:Credit amount:1600
+API_RESP : inform limit:1000,balance:8000,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 8000 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : accept
+Bot : who is the recipient ?
+User : The money is for Sourabh
+API : destination_name_check destination_name:Sourabh
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Credit, destination_name:Sourabh, amount:1000
+API_RESP : inform api_result:success
+Bot : end_call transaction conducted successfully, ciao !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money from Credit
+API : initial_slots_check  user_account:Credit
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money from Checkin
+API : initial_slots_check  user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : The money is for Matteo
+API : destination_name_check destination_name:Matteo
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : let's make 200
+API : amount_check user_account:Checkin amount:200
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Could you please transfer 1600 to Simone
+API : initial_slots_check  destination_name:Simone,amount:1600
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : I select Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+API : amount_check  user_account:Savings amount:1600
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Savings, destination_name:Simone, amount:1600
+API_RESP : inform api_result:success
+Bot : end_call transaction conducted successfully, ciao !!
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to send 9000 to Simone
+API : initial_slots_check  destination_name:Simone,amount:9000
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Simone
+API_RESP : inform api_result:failed, message:'available list of names :Marco,Serra,Vevake
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Marco,Serra,Vevake, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Transfer money please
+Bot : From which account ?
+User : use the Savings for the transaction
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send this money to Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : 200 is ok
+API : amount_check user_account:Savings amount:200
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Could you please transfer 200 to Serra
+API : initial_slots_check  amount:200,destination_name:Serra
+API_RESP : inform api_result:success
+Bot : From which account ?
+User : from my Savings
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+API : amount_check  user_account:Savings amount:200
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Send money from Savings
+API : initial_slots_check  user_account:Savings
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send them to Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : 200 is ok
+API : amount_check user_account:Savings amount:200
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to make a money transaction
+Bot : From which account ?
+User : take from Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send this money to Samuel
+API : destination_name_check destination_name:Samuel
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : roughly 9000
+API : amount_check user_account:Checkin amount:9000
+API_RESP : inform limit:5000,balance:3000,max_transferable_amt:3000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 5000 and your current balance is 3000 so the maximum you can transfer is 3000, would you like to reduce your amount to this amount ?
+User : accept
+Bot : confirm transaction ?
+User : accept
+Bot : api_name:transaction_api, user_account:Checkin, destination_name:Samuel, amount:3000
+API_RESP : inform api_result:failed
+Bot : end_call error in processing transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to take some money from my Savings for Vevake
+API : initial_slots_check  destination_name:Vevake,user_account:Savings
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:failed, message:'available list of names :Serra,Simone
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Serra,Simone, would you like to change the recipient ?
+User : accept
+Bot : who is the recipient ?
+User : Send this money to Serra
+API : destination_name_check destination_name:Serra
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : Send 200
+API : amount_check user_account:Savings amount:200
+API_RESP : inform api_result:success
+Bot : confirm transaction ?
+User : reject
+Bot : end_call User refused to confirm transaction
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I want to transfer money from my Credit to Serra
+API : initial_slots_check  destination_name:Serra,user_account:Credit
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer 2400 from my Savings
+API : initial_slots_check  amount:2400,user_account:Savings
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Savings
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Checkin'
+Bot : It seems that you have not entered a valid account, you available accounts are Checkin, would you like change the source account ?
+User : reject
+Bot : end_call You denied to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I would like to transfer 1200 from my Checkin
+API : initial_slots_check  user_account:Checkin,amount:1200
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : withdraw from Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : my Savings account
+API : account_check user_account:Savings
+API_RESP : inform api_result:success
+API : amount_check  user_account:Savings amount:1200
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Tahir is the recipient
+API : destination_name_check destination_name:Tahir
+API_RESP : inform api_result:failed, message:'available list of names :Simone,Marco,Samuel,Matteo
+Bot : The recipient you are trying to provide doesn't exist, available list of recipients is Simone,Marco,Samuel,Matteo, would you like to change the recipient ?
+User : reject
+Bot : end_call User failed to change the account
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : I need to transfer money
+Bot : From which account ?
+User : from my Checkin
+API : account_check user_account:Checkin
+API_RESP : inform api_result:success
+Bot : who is the recipient ?
+User : Send it to the account of Vevake
+API : destination_name_check destination_name:Vevake
+API_RESP : inform api_result:success
+Bot : what is the amount ?
+User : 4500 is ok
+API : amount_check user_account:Checkin amount:4500
+API_RESP : inform limit:1000,balance:3000,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 3000 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
+User : <SILENCE>
+Bot : how can i help you today ?
+User : Please transfer {amount_transaction} from my Checkin
+API : initial_slots_check  user_account:Checkin,amount:1200
+API_RESP : inform api_result:failed, message:'one or more slots are faulty'
+API : account_check user_account:Checkin
+API_RESP : inform api_result:failed , message='availbale list of user accounts : Savings,Credit'
+Bot : It seems that you have not entered a valid account, you available accounts are Savings,Credit, would you like change the source account ?
+User : accept
+Bot : From which account ?
+User : take from Credit
+API : account_check user_account:Credit
+API_RESP : inform api_result:success
+API : amount_check  user_account:Credit amount:1200
+API_RESP : inform limit:1000,balance:8000,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 8000 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : accept
+API : amount_check user_account:Checkin , amount:1200
+API_RESP : inform limit:1000,balance:8000,max_transferable_amt:1000, message:'change to max_transferable_amt ?'
+Bot : It seems the amount you provided can't be processed because your transaction limit is 1000 and your current balance is 8000 so the maximum you can transfer is 1000, would you like to reduce your amount to this amount ?
+User : reject
+Bot : end_call Rejected to change the decision
+
