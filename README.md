@@ -34,6 +34,7 @@ There are two models to run i.e. *Single_Memory_Network_Architecture* and *Multi
 ### Single Memory Network
 
 In this model there is a single memory network that aims to handle multiple domains, so one memory network is handling separate domains like *making a transaction* and *dislaying account balance*
+
 To run and test this model, run the following commands
 
 **To Train**
@@ -41,7 +42,7 @@ To run and test this model, run the following commands
 python one_mem_net.py --train=True
 ```
 
-***To Test*
+**To Test**
 ```python
 python one_mem_net.py --train=False
 ```
@@ -49,7 +50,9 @@ python one_mem_net.py --train=False
 ### Multiple Memory Network
 
 In this model, we have multiple memory networks, each handling one specific task i.e one memory network handles transaction and another one handles account balance.
+
 To be able to handle multiple domains, we introduce a third memory network, whose job is to figure out which memory network to call for the conversation.
+
 In this case we can handle multiple intents and scale to new domains easily because our job is not to carry the conversation but whom to call for the conversation.
 
 To run this model, run the following commands
@@ -63,3 +66,13 @@ python mult_mem_net.py --train=True
 ```python
 python mult_mem_net.py --train=False
 ```
+
+
+### Resources
+
+If you want to learn more about **Memory Networks**, you can check out the following link.
+
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ZwvWY9Yy76Q
+" target="_blank"><img src="http://img.youtube.com/vi/ZwvWY9Yy76Q/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
