@@ -2,6 +2,7 @@ import random
 import sys
 sys.path.append("..")
 from utils import Action
+
 class Transaction_user() :
     def __init__(self,templates=None) :
         
@@ -21,22 +22,28 @@ class Transaction_user() :
         self.create_user_profile()
     
     def sort_my_slots(self,slots_given) :
-        slots_sorted = list()
         
-        if "user_account" in slots_given :
-            slots_sorted.append("user_account")
-            slots_given.remove("user_account")
         
-        if "destination_name" in slots_given :
-            slots_sorted.append("destination_name")
-            slots_given.remove("destination_name")
+        if slots_given :
+            
+            slots_sorted = list()
+            
+            if "user_account" in slots_given :
+                slots_sorted.append("user_account")
+                slots_given.remove("user_account")
+            
+            if "destination_name" in slots_given :
+                slots_sorted.append("destination_name")
+                slots_given.remove("destination_name")
+            
+            if "amount" in slots_given :
+                slots_sorted.append("amount")
+                slots_given.remove("amount")
         
-        if "amount" in slots_given :
-            slots_sorted.append("amount")
-            slots_given.remove("amount")
-        
-        for slot in slots_given :
-            slots_sorted.append(slot)
+            for slot in slots_given :
+                slots_sorted.append(slot)
+        else :
+            slots_sorted = list()
         
         return slots_sorted
     
@@ -51,13 +58,13 @@ class Transaction_user() :
         self.user["name"] = names[0]
         
         self.user["destination_name"] = names[1]
-        number_of_destination_names = random.randint(1,len(self.user_names)-1)
+        number_of_destination_names = random.randint(1,len(self.user_names))
         self.user["destination_names"] = random.sample(self.user_names,number_of_destination_names)
         
         #selecting the usr_account to make the transaction from
         self.user["user_account"] = random.sample(self.user_accounts,1)[0]
         
-        number_of_user_accounts = random.randint(1,len(self.user_accounts) - 1)
+        number_of_user_accounts = random.randint(1,len(self.user_accounts))
         self.user["user_accounts"] = random.sample(self.user_accounts,number_of_user_accounts)
         
         # selecting the amount to be transfered
@@ -82,15 +89,21 @@ class Transaction_user() :
     
     def perform_random_action(self,bot_action) :
         
+        values_to_give = dict()
+        actual_actor = None
+        actual_action = None
+        
         if bot_action.get_description() == "API_CALL" :
             
-            actual_actor = "API_RESP"
-            accept_message = "api_call success"
-            reject_message = "api_call failed"
+            actual_actor = "API"
+            actual_action = "api_response"
+            accept_message = "api_result:success"
+            reject_message = "api_result:failed"
         
         elif bot_action.get_description() == "CHANGE_ACCOUNT" :
             
             actual_actor = "User"
+            actual_action = "api_response"
             accept_message = "accept"
             reject_message = "reject"
             
@@ -99,13 +112,16 @@ class Transaction_user() :
                 new_account = random.sample(self.user_accounts,1)[0]
                 
             self.user["user_account"] = new_account
+            values_to_give["user_account"] = new_account
         
         elif bot_action.get_description() == "CHANGE_AMOUNT" :
             
             actual_actor = "User"
+            actual_response = "api_response"
             accept_message = "accept"
             reject_message = "reject"
             self.user["amount"] = self.user["max_transferable_amt"]
+            values_to_give["amount"] = self.user["max_transferable_amt"]
         
         elif bot_action.get_description() == "CHANGE_DESTINATION_NAME" :
             
@@ -119,6 +135,7 @@ class Transaction_user() :
                 new_destination_name = random.sample(self.user_names,1)[0]
                 
             self.user["destination_name"] = new_destination_name
+            values_to_give["destination_name"] = new_destination_name
         
         else :
             actual_actor = "User"
@@ -130,21 +147,21 @@ class Transaction_user() :
             user_action = Action(actor=actual_actor,
                                  action="inform",
                                  slots=None,
-                                 values=None,
+                                 values=values_to_give,
                                  message=accept_message,
                                  templates=self.templates)
         else :
             user_action = Action(actor=actual_actor,
-                                 action="inform",
+                                 action=actual_action,
                                  slots=None,
-                                 values=None,
+                                 values=values_to_give,
                                  message=reject_message,
                                  templates=self.templates)
         return user_action
     # This is the function that converses with the bot through 'Action' Objects
     def speak(self,bot_action) :
-        
-        if bot_action.get_actor() == "API" :
+        user_action = None
+        if bot_action.get_action() == "api_call" :
             
             user_action = self.api_response(bot_action)            
 
@@ -164,9 +181,9 @@ class Transaction_user() :
                 
                 else :
                     
-                    number_of_slots = random.randint(0,len(self.slots)-1)
+                    number_of_slots = random.randint(0,len(self.slots))
                     slots_to_inform = random.sample(self.slots,number_of_slots)
-                    all_slots = ["intent"] + slots_to_inform
+                    all_slots = ["intent"] + self.sort_my_slots(slots_to_inform)
                     
                     values_to_inform = dict()
                     
@@ -179,8 +196,7 @@ class Transaction_user() :
                                          values=values_to_inform,
                                          message="Providing intent",
                                          templates=self.templates)
-            else:
-                
+            else :
                 user_action = self.perform_random_action(bot_action)
         
         elif bot_action.get_action() == "api_call" :
@@ -204,34 +220,34 @@ class Transaction_user() :
         user_action = None
         
         # if the API action asks for a account check
-        if bot_action.get_action() == "amount_check" :
+        if bot_action.get_description() == "API_AMOUNT_CHECK" :
             
             if self.user["amount"] > self.user["max_transferable_amt"] :
                 
-                user_action = Action(actor="API_RESP",
-                                     action="inform",
+                user_action = Action(actor="API",
+                                     action="api_response",
                                      slots=["limit","balance","max_transferable_amt"],
                                      values={"limit" : self.user["limit"],
                                              "balance" : self.user["balance"],
                                              "max_transferable_amt" : self.user["max_transferable_amt"]},
-                                     message="limit:{},balance:{},maxi_transferable_amt:{} message='change to max_transferable_amt ?'".format(self.user["limit"],
+                                     message="limit:{},balance:{},max_transferable_amt:{}, message:'change to max_transferable_amt ?'".format(self.user["limit"],
                                                                                                                                    self.user["balance"],
                                                                                                                                    self.user["max_transferable_amt"]),
                                      templates=self.templates)
             
             else :
                 
-                user_action = Action(actor="API_RESP",
-                                     action="inform",
+                user_action = Action(actor="API",
+                                     action="api_response",
                                      slots=["limit","balance","max_transferable_amt"],
                                      values={"limit" : self.user["limit"],
                                              "balance" : self.user["balance"],
                                              "max_transferable_amt" : self.user["max_transferable_amt"]},
-                                     message="amount_check : success",
+                                     message="api_result:success",
                                      templates=self.templates)
         
         # if the API action askes for a initial state check
-        elif bot_action.get_action() == "initial_slots_check" :
+        elif bot_action.get_description() == "API_INITIAL_SLOT_CHECK" :
             
             # if the flag becomes true at the end of this segment then it means that one or more than one slots are incorrect
             flag = False
@@ -241,102 +257,106 @@ class Transaction_user() :
             if "user_account" in bot_action.get_slots() and self.user["user_account"] not in self.user["user_accounts"] :
                 
                 self.priority_states.append("check_account")
-                self.priority_actions["check_account"] =  Action(actor="API",
-                                                                action="account_check",
+                self.priority_actions["check_account"] =  Action(actor="Bot",
+                                                                action="api_call",
                                                                 slots=["user_account"],
                                                                 values=None,
-                                                                message="user_account:{}".format(self.user["user_account"]),
+                                                                message="api_call:account_check_api, user_account:{}".format(self.user["user_account"]),
+                                                                description="API_ACCOUNT_CHECK",
                                                                 templates=self.templates)
             
             # if destination name is given in the initial slots then check if it is appropriate
             if "destination_name" in bot_action.get_slots() and self.user["destination_name"] not in self.user["destination_names"] :
                 
                 self.priority_states.append("check_destination")
-                self.priority_actions["check_destination"] = Action(actor="API",
-                                                                   action="destination_name_check",
+                self.priority_actions["check_destination"] = Action(actor="Bot",
+                                                                   action="api_call",
                                                                    slots=["destination_name"],
                                                                    values=None,
-                                                                   message="destination_name:{}".format(self.user["destination_name"]),
+                                                                   message="api_call:destination_name_check_api, destination_name:{}".format(self.user["destination_name"]),
+                                                                   description="API_DESTINATION_NAME_CHECK",
                                                                    templates=self.templates)
             
             # if both user_account and amount are present then check if the amount satisfies the criteria
             if "user_account" in bot_action.get_slots() and "amount" in bot_action.get_slots() and self.user["amount"] > self.user["max_transferable_amt"] :
                 
                 self.priority_states.append("check_amount")
-                self.priority_actions["check_amount"] = Action(actor="API",
-                                              action="amount_check",
+                self.priority_actions["check_amount"] = Action(actor="Bot",
+                                              action="api_call",
                                               slots=["limit","balance"],
                                               values=None,
-                                              message="user_account:{} , amount:{}".format(self.user["user_account"],
+                                              message="api_call:amount_check_api, user_account:{}, amount:{}".format(self.user["user_account"],
                                                                       self.user["amount"]),
+                                              description="API_AMOUNT_CHECK",
                                               templates=self.templates)
             
             # if self.priority_states is no empty then one or more than one value is incorrect then send appropriate error message
             if self.priority_states :
                 
-                user_action = Action(actor="API_RESP",
-                                     action="inform",
+                user_action = Action(actor="API",
+                                     action="api_response",
                                      slots=self.priority_states,
                                      values=self.priority_actions,
-                                     message="initial_slots_check : failed, message='one or more slots are faulty'",
+                                     message="api_result:failed, message:'one or more slots are faulty'",
                                      templates=self.templates)
             
             # if everything is okay then send the correct message
             else :
                 
-                user_action = Action(actor="API_RESP",
-                                     action="inform",
+                user_action = Action(actor="API",
+                                     action="api_response",
                                      slots=bot_action.get_slots(),
                                      values=None,
-                                     message="initial_slots_check : success",
+                                     message="api_result:success",
                                      templates=self.templates)
         
         # if the requested action is an account check
-        elif bot_action.get_action() == "account_check" :
-            
+        elif bot_action.get_description() == "API_ACCOUNT_CHECK" :
+            #print("checking account")
             if self.user["user_account"] in self.user["user_accounts"] :
                 
-                user_action = Action(actor="API_RESP",
-                                     action="inform",
+                user_action = Action(actor="API",
+                                     action="api_response",
                                      slots=["account"],
                                      values=self.user,
-                                     message="account_check : success",
+                                     message="api_result:success",
                                      templates=self.templates)
             
             else :
                 
                 slot_message = ','.join(self.user["user_accounts"])
-                api_message = "account_check : failed , message='availbale list of user accounts : " + slot_message + "'"
+                api_message = "api_result:failed, message:'availbale list of user accounts : {}'".format(slot_message)
                 
-                user_action = Action(actor="API_RESP",
-                                     action="inform",
+                user_action = Action(actor="API",
+                                     action="api_response",
                                      slots=self.user["user_accounts"],
                                      values=self.user,
                                      message=api_message,
                                      templates=self.templates)
         
         # if the requested action is destination name check
-        elif bot_action.get_action() == "destination_name_check" :
+        elif bot_action.get_description() == "API_DESTINATION_NAME_CHECK" :
             
             if self.user["destination_name"] in self.user["destination_names"] :
                 
-                user_action = Action(actor="API_RESP",
-                                     action="inform",
+                user_action = Action(actor="API",
+                                     action="api_response",
                                      slots=["destination_name"],
                                      values=None,
-                                     message="destination_name_check : success",
+                                     message="api_result:success",
                                      templates=self.templates)
             
             else :
                 
                 slot_message = ','.join(self.user["destination_names"])
-                api_message = "destination_name_check : failed , message='available list of names : " + slot_message + "'"
-                user_action = Action(actor="API_RESP",
-                                     action="inform",
+                api_message = "api_result:failed, message:'available list of names :{}'".format(slot_message)
+                user_action = Action(actor="API",
+                                     action="api_response",
                                      slots=self.user["destination_names"],
                                      values={"destination_names" : self.user["destination_names"]},
                                      message=api_message,
                                      templates=self.templates)
+        else :
+            user_action = self.perform_random_action(bot_action)
         
         return user_action            
-        

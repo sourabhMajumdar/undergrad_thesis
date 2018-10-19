@@ -1,78 +1,52 @@
-# Undergraduate Thesis
+# MemN2N Chatbot in Tensorflow
 
-## Topic
+Implementation of [Learning End-to-End Goal-Oriented Dialog](https://arxiv.org/abs/1605.07683) with sklearn-like interface using Tensorflow. Tasks are from the [bAbl](https://research.facebook.com/research/babi/) dataset. Based on an earlier implementation (can't find the link).
 
-The topic of this thesis is "Neural Approaches Toward Domain Independent Dialog System"
-
-## Description
-
-The description is the same as in the [ **Website Link** ](<https://sourabhmajumdar.github.io/undergrad_thesis/>).
-
-To summarize we want to develop a dialog system that is capable of handling more than one task oriented conversation and also be able to scale to new domains without much computational effort
-
-## Running the project 
-
-To run this project we need to complete two basic steps
-
-1. Create the Data
-2. Run the Model
-
-### Creating the Data
-
-To create the data, you need to navigate to the Dialog_Generator folder and run the following command
-
-```python
-
-python create_dialog.py
-
+### Install and Run
+```
+pip install -r requirements.txt
+python single_dialog.py
 ```
 
-### Running the models
+### Examples
 
-There are two models to run i.e. *Single_Memory_Network_Architecture* and *Multiple_Memory_Network_Architecture*
+Train the model
 
-### Single Memory Network
-
-In this model there is a single memory network that aims to handle multiple domains, so one memory network is handling separate domains like *making a transaction* and *dislaying account balance*
-
-To run and test this model, run the following commands
-
-**To Train**
-```python
-python one_mem_net.py --train=True
+```
+python single_dialog.py --train True --task_id 1 --interactive False
 ```
 
-**To Test**
-```python
-python one_mem_net.py --train=False
+Running a [single bAbI task](./single_dialog.py) Demo
+
+```
+python single_dialog.py --train False --task_id 1 --interactive True
 ```
 
-### Multiple Memory Network
+These files are also a good example of usage.
 
-In this model, we have multiple memory networks, each handling one specific task i.e one memory network handles transaction and another one handles account balance.
+### Requirements
 
-To be able to handle multiple domains, we introduce a third memory network, whose job is to figure out which memory network to call for the conversation.
+* tensorflow
+* scikit-learn
+* six
+* scipy
 
-In this case we can handle multiple intents and scale to new domains easily because our job is not to carry the conversation but whom to call for the conversation.
+### Results
 
-To run this model, run the following commands
+Unless specified, the Adam optimizer was used.
 
-**To Train**
-```python
-python mult_mem_net.py --train=True
-```
-
-**To Test**
-```python
-python mult_mem_net.py --train=False
-```
-
-
-### Resources
-
-If you want to learn more about **Memory Networks**, you can check out the following link.
+The following params were used:
+* epochs: 200
+* learning_rate: 0.01
+* epsilon: 1e-8
+* embedding_size: 20
 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ZwvWY9Yy76Q
-" target="_blank"><img src="http://img.youtube.com/vi/ZwvWY9Yy76Q/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+Task  |  Training Accuracy  |  Validation Accuracy  |  Test Accuracy	 
+------|---------------------|-----------------------|--------------------
+1     |  99.9	            |  99.1		            |  99.3				 
+2     |  100                |  100		            |  99.9				 
+3     |  96.1               |  71.0		            |  71.1				 
+4     |  99.9               |  56.7		            |  57.2				 
+5     |  99.9               |  98.4		            |  98.5				 
+6     |  73.1               |  49.3		            |  40.6				 

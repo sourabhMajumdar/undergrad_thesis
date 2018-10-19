@@ -7,6 +7,13 @@ import tensorflow as tf
 
 stop_words=set(["a","an","the"])
 
+def write_candidates(data_dir="data/",file_name="candidate_file.txt",candidate_list=None) :
+    
+    f_handle = open(os.path.join(data_dir,file_name),"w")
+    for candidate in candidate_list :
+        print(candidate)
+        f_handle.write("{}\n".format(candidate))
+    f_handle.close()
 
 def load_candidates(data_dir, task_id):
     assert task_id > 0 and task_id < 7
@@ -17,12 +24,15 @@ def load_candidates(data_dir, task_id):
         candidates_f='dialog-babi-task6-dstc2-candidates.txt'
     else:
         candidates_f='candidates.txt'
+    #candidates_list = list()
     with open(os.path.join(data_dir,candidates_f)) as f:
         for i,line in enumerate(f):
+            #candidates_list.append(line.strip().split(' ',1)[1] + " --> " + str(i))
             candid_dic[line.strip().split(' ',1)[1]] = i
             line=tokenize(line.strip())[1:]
             candidates.append(line)
     # return candidates,dict((' '.join(cand),i) for i,cand in enumerate(candidates))
+    #write_candidates(data_dir,candidate_list=candidates_list)
     return candidates,candid_dic
 
 
@@ -46,6 +56,10 @@ def load_dialog_task(data_dir, task_id, candid_dic, isOOV):
     train_file = os.path.join(data_dir,"train_data.txt")
     test_file = os.path.join(data_dir,"test_data.txt")
     val_file = os.path.join(data_dir,"val_data.txt")
+    
+    print("train_file is {} ".format(train_file))
+    print("validation file is {} ".format(val_file))
+    print("test file is {} ".format(test_file))
     
     train_data = get_dialogs(train_file,candid_dic)
     test_data = get_dialogs(test_file,candid_dic)
@@ -208,7 +222,16 @@ def vectorize_data(data, word_idx, sentence_size, batch_size, candidates_size, m
         lq = max(0, sentence_size - len(query))
         q = [word_idx[w] if w in word_idx else 0 for w in query] + [0] * lq
 
-        S.append(np.array(ss))
-        Q.append(np.array(q))
-        A.append(np.array(answer))
+        #print("okay to story is : {}\n and type of object for ss is : {}\n".format(ss,type(ss[0])))
+        #print("okay so query is : {}\nand type of object for q is : {}\n".format(q,type(q[0])))
+        
+        ss_n = np.array(ss)
+        q_n = np.array(q)
+        a_n = np.array(answer)
+
+        print(ss_n.shape)
+        print(q_n.shape)
+        S.append(ss_n)
+        Q.append(q_n)
+        A.append(a_n)
     return S, Q, A

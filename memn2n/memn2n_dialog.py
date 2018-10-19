@@ -238,3 +238,7 @@ class MemN2NDialog(object):
         """
         feed_dict = {self._stories: stories, self._queries: queries}
         return self._sess.run(self.predict_op, feed_dict=feed_dict)
+    
+    def batch_compute_loss(self,stories,queries,answers) :
+        feed_dict = {self._stories: stories, self._queries: queries, self._answers:answers}
+        return self._sess.run(self.loss_op,feed_dict=feed_dict)

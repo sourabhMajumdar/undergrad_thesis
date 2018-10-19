@@ -75,6 +75,7 @@ class Transaction_bot(object) :
             print("user_action received is None")
         
         next_state , bot_action = self.current_state(user_action)
+        #print("next state is  == > {}".format(next_state))
         self.current_state = self.states[next_state]
         
         return bot_action
@@ -91,14 +92,15 @@ class Transaction_bot(object) :
                 
                 next_state = "check_initial"
                 slots_given = user_action.get_slots()[1:] 
-                slot_message = " "
+                slot_message = "api_call:initial_slot_check,"
                 for slot in slots_given :
-                    slot_message += "{}:{},".format(slot,self.user_values[slot])
-                bot_action = Action(actor="API",
-                                    action="initial_slots_check",
+                    slot_message += " {}:{},".format(slot,self.user_values[slot])
+                bot_action = Action(actor="Bot",
+                                    action="api_call",
                                     slots=user_action.get_slots(),
                                     values=None,
                                     message=slot_message[:-1],
+                                    description="API_INITIAL_SLOT_CHECK",
                                     templates=self.templates)
             
             else :
@@ -125,7 +127,7 @@ class Transaction_bot(object) :
     def check_initial_state(self,user_action) :
         # if the below message is received then it means that initial check is successful and move on to the next appropriate slots
         
-        if user_action.get_message() == "initial_slots_check : success" :
+        if user_action.get_message() == "api_result:success" :
             
             if not self.slots_to_ask :
                 
@@ -178,11 +180,12 @@ class Transaction_bot(object) :
             next_state = "check_account"
             
             # perform the corresponding bot information
-            bot_action = Action(actor="API",
-                                action="account_check",
+            bot_action = Action(actor="Bot",
+                                action="api_call",
                                 slots=["user_account"],
                                 values=None,
-                                message="user_account:{}".format(self.user_values["user_account"]),
+                                message="api_call:account_check_api, user_account:{}".format(self.user_values["user_account"]),
+                                description="API_ACCOUNT_CHECK",
                                 templates=self.templates)
                     
         else :
@@ -199,16 +202,17 @@ class Transaction_bot(object) :
     
     def check_account_state(self,user_action) :
         
-        if user_action.get_message() == "account_check : success" :
+        if user_action.get_message() == "api_result:success" :
             
             if "amount" in self.user_values.keys() :
                 
                 next_state = "check_amount"
-                bot_action = Action(actor="API",
-                                    action="amount_check",
+                bot_action = Action(actor="Bot",
+                                    action="api_call",
                                     slots=["limit","balance"],
                                     values=None,
-                                    message=" user_account:{} amount:{}".format(self.user_values["user_account"],self.user_values["amount"]),
+                                    message="api_call:amount_check_api, user_account:{}, amount:{}".format(self.user_values["user_account"],self.user_values["amount"]),
+                                    description="API_AMOUNT_CHECK",
                                     templates=self.templates)
             
             else :
@@ -236,7 +240,7 @@ class Transaction_bot(object) :
                                         action="request",
                                         slots=[next_state],
                                         values=None,
-                                        message="request for {} ".format(next_state),
+                                        message="request for {}".format(next_state),
                                         templates=self.templates)        
         else :
             
@@ -288,11 +292,12 @@ class Transaction_bot(object) :
             
             # sample out a new state based on the remaining slots to ask
             next_state = "check_destination"
-            bot_action = Action(actor="API",
-                                action="destination_name_check",
+            bot_action = Action(actor="Bot",
+                                action="api_call",
                                 slots=["destination_name"],
                                 values=None,
-                                message="destination_name:{}".format(self.user_values["destination_name"]),
+                                message="api_call:destination_check_api, destination_name:{}".format(self.user_values["destination_name"]),
+                                description="API_DESTINATION_NAME_CHECK",
                                 templates=self.templates)
         
         else :
@@ -302,14 +307,14 @@ class Transaction_bot(object) :
                                 action="request",
                                 slots=["destination_name"],
                                 values=None,
-                                message="Provide the Name of the Receiver",
+                                message="provide the Name of the Receiver",
                                 templates=self.templates)
         
         return next_state , bot_action
     
     def check_destination_name_state(self,user_action) :
         
-        if user_action.get_message() == "destination_name_check : success" :
+        if user_action.get_message() == "api_result:success" :
             
             if self.priority_states :
                 next_state = self.priority_states[0]
@@ -386,11 +391,12 @@ class Transaction_bot(object) :
                 
                 # No random check this time because we have to check if the amount given is correct or not
                 next_state = "check_amount"
-                bot_action = Action(actor="API",
-                                    action="amount_check",
+                bot_action = Action(actor="Bot",
+                                    action="api_call",
                                     slots=["limit","balance"],
                                     values=None,
-                                    message="user_account:{} amount:{}".format(self.user_values["user_account"],self.user_values["amount"]),
+                                    message="api_call:check_amount, user_account:{}, amount:{}".format(self.user_values["user_account"],self.user_values["amount"]),
+                                    description="API_AMOUNT_CHECK",
                                     templates=self.templates)
             
             else :
@@ -420,7 +426,7 @@ class Transaction_bot(object) :
         
         self.record_user_values(user_action)
         
-        if user_action.get_message() == "amount_check : success" :
+        if user_action.get_message() == "api_result:success" :
             
             if self.priority_states :
                 next_state = self.priority_states[0]
@@ -516,12 +522,14 @@ class Transaction_bot(object) :
         if user_action.get_message() == "accept" :
             
             next_state = "api_call"
-            api_value = self.user_values["user_account"] + " " + self.user_values["destination_name"] + " "  + str(self.user_values["amount"])
+            #api_value = self.user_values["user_account"] + " " + self.user_values["destination_name"] + " "  + str(self.user_values["amount"])
             bot_action = Action(actor="Bot",
                                 action="api_call",
-                                slots=None,
-                                values={"api_call" : api_value},
-                                message="API_CALL",
+                                slots=["user_account","destination_name","amount"],
+                                values={"user_account" : self.user_values["user_account"],
+                                        "destination_name" : self.user_values["destination_name"],
+                                        "amount" : self.user_values["amount"]},
+                                message="api_call:transaction_api, user_account:{}, destination_name:{}, amount:{}".format(self.user_values["user_account"],self.user_values["destination_name"],self.user_values["amount"]),
                                 description="API_CALL",
                                 templates=self.templates)
         
@@ -549,7 +557,7 @@ class Transaction_bot(object) :
     # Api call state
     def api_call_state(self,user_action) :
         
-        if user_action.get_message() == "api_call success" :
+        if user_action.get_message() == "api_result:success" :
             
             bot_action = Action(actor="Bot",
                                 action="end_call",
