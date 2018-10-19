@@ -26,6 +26,60 @@ The code for all the models are deescribed in the respective folder
 
 The Data for this experiment was inspired from the paper [ **Dialog Self Play** ](<https://arxiv.org/abs/1801.04871>) proposed by google.
 
+### How to run the Experiment
+
+Before we begin the experiment, we need to understand how the experiment works.
+
+**Workings**
+
+The experiment is basically aimed at comparing multiple memory network model against single memory network.
+We need to See how both these networks perform on singluar task and then on multiple task.
+Finally we need to see the ability of the system to scale without loosing the ability to converse effectively in the already trained domains.
+
+Since now we know how to run the experiments, we start it step by step
+
+**Step#1 Create the Data**
+
+To generate the data navigate to the *Data Generator* i.e
+
+```
+cd "Data Generator"
+```
+and run the *create_dialog.py* file
+
+```python
+python create_dialog.py
+```
+
+After you run this command you should see a folder named *Data* **one directory above**.
+
+**Step#2 Run the single memory network**
+
+Single Memory Network uses one memory network to handle all the tasks given in the experiment. 
+To run the single memory network, navigate to the *Single Memory Network* folder and run the following command
+
+```python
+python single_memory_network.py --train=True --epochs=200 --embedding_size=20
+```
+feel free to experiment with the arguements.
+
+**Step#3 Run the Multiple memory network**
+
+Multiple Memory Network uses more than one memory network to handle multiple tasks.
+What I mean to say is that there is a dedicated memory task for each task and one memory network which determines which memory network to call from the conversation uptill now.
+
+To run Multiple Memory Network, navigate to the folder *Multiple Memory Network* and run the following command
+```python
+python multiple_memory_network.py --train=True --epochs=200 --embedding_size=20
+```
+
+**Step#4 Results**
+
+Currently there is no separate folder to see results, you can see the **per-response** and **per-dialog accuracy**, after the training and the training and validation charts in the *Performance Charts* folder. 
+
+If you have any questions, feel free to contact on the email provided below.
+Ciao !!!!!
+
 ### Resources
 
 Currently my project is inspired from the following papers
@@ -37,8 +91,11 @@ Currently my project is inspired from the following papers
 
 ### Architecture
 
-I propose a multiple memory network architecture inspied from the first two links.
-To create the data I take inspiration from the third link.
+I propose a multiple memory network architecture inspied from the first two links i.e ([ **Memory Networks** ](<https://arxiv.org/abs/1410.3916>) and [ **End to End Memory Networks** ](<https://arxiv.org/abs/1503.08895>)).
+
+To create the data I take inspiration from the last link i.e ([ **Dialog Self Play** ](<https://arxiv.org/abs/1801.04871>)).
+
+
 
 ### Contact
 
