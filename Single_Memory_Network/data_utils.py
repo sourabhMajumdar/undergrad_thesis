@@ -5,7 +5,7 @@ import re
 import numpy as np
 import tensorflow as tf
 
-stop_words=set(["a","an","the"])
+stop_words=set(["a","an","the","'",",",":",":'","!","!!","!!!"])
 
 def write_candidates(data_dir="data/",file_name="candidate_file.txt",candidate_list=None) :
     

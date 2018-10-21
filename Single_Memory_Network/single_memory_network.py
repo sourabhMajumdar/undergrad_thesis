@@ -8,6 +8,8 @@ from sklearn import metrics
 from memn2n import MemN2NDialog
 from itertools import chain
 from six.moves import range, reduce
+from nltk.translate.bleu_score import sentence_bleu
+
 import sys
 import tensorflow as tf
 import numpy as np
@@ -91,6 +93,7 @@ class Single_Memory_Model(object) :
         
         
         with self.graph.as_default() :
+
             self.model = Single_Memory_Network(data_dir=self.data_dir,
                                                model_dir=self.model_dir,
                                                performance_directory=self.performance_directory,
@@ -108,9 +111,11 @@ class Single_Memory_Model(object) :
                                                embedding_size=self.embedding_size,
                                                description=self.description,
                                                session=self.session)
+            print("Created memory network : {}".format(self.description))
         
         self.validtion_file = validation_file
     def train(self) :
+
         print(" Training Model with description : {}".format(self.get_description()))
         with self.graph.as_default() :
             self.model.train()
@@ -128,7 +133,7 @@ class Single_Memory_Model(object) :
             count_dialog = 1
             correct_dialog_track = True
 
-            f_handle = open(self.validation_file)
+            f_handle = open(os.path.join(self.data_dir,"val_data.txt"))
             list_of_lines = f_handle.readlines()
             for line in tqdm(list_of_lines) :
                 raw_line = line[2:].strip()
@@ -154,10 +159,12 @@ class Single_Memory_Model(object) :
 
     def dialog_analysis(self,file_directory="Analysis_Directory/",file_name="Analysis.txt") :
         print(" Analysing Dialogs for Model description : {}".format(self.get_description()))
+        
         if not os.path.exists(file_directory) :
             os.makedirs(file_directory)
 
         file_handle = open(os.path.join(file_directory,file_name),'w')
+
         with self.graph.as_default() :
             self.model.load_saved_model()
             story = list()
@@ -168,7 +175,11 @@ class Single_Memory_Model(object) :
             count_sentence = 0
             correct_sentence = 0
             correct_dialog = 0
-            count_dialog = 1
+            count_dialog = 0
+            error_count = 0
+            api_error = 0
+            api_bleu_score = 0.0
+            non_api_error = 0
             correct_dialog_track = True
 
             f_handle = open(self.validation_file)
@@ -191,6 +202,14 @@ class Single_Memory_Model(object) :
                     bot_utterance = utterances[1]
                     bot_response, story, nid = network_converse(story,user_utterance,nid,bot_utterance)
                     if bot_response.strip() != bot_utterance :
+                        error_count += 1
+                        if "api_call" in bot_utterance and "api_call" in bot_response :
+                            api_error += 1
+                            tok_bot_utterance = tokenize(bot_utterance)
+                            tok_bot_response = tokenize(bot_response)
+                            api_bleu_score += sentence_bleu([tok_bot_utterance],tok_bot_response)
+                        else :
+                            non_api_error +=1
                         correct_dialog_track = False
                         
                         file_handle.write("Story is :\n")
@@ -200,8 +219,15 @@ class Single_Memory_Model(object) :
                         file_handle.write("User Utterance : {}\n".format(user_utterance))
                         file_handle.write("Bot Utterance (expected) : {}\n".format(bot_utterance))
                         file_handle.write("Bot Utterance (predicted) : {}\n\n".format(bot_response))
-                        
+                    
+
                     analysis_story.append("User >> {} || Bot >> {} \n".format(user_utterance,bot_utterance))
+
+        if api_error == 0 :
+            print("Congrat's no api_error")
+        else :
+            print("Number of api error's = {}/{}, Avg api_bleu score = {}".format(str(api_error),str(error_count),str(float(api_bleu_score)/api_error)))
+        print("Number of non api error's = {}/{}".format(str(non_api_error),str(error_count)))
 
         file_handle.close()
 
@@ -287,7 +313,7 @@ if __name__ == '__main__':
                         embedding_size=FLAGS.embedding_size,
                         description="transaction_history_memory_network")
 
-    all_intent_model = Single_Memory_Model(data_dir="../data/one_data/", 
+    '''all_intent_model = Single_Memory_Model(data_dir="../data/one_data/", 
                         model_dir="all_intent_memory_network/",
                         validation_file="../data/one_data/val_data.txt",
                         performance_directory="../Performance_Charts/" ,
@@ -303,7 +329,7 @@ if __name__ == '__main__':
                         hops=FLAGS.hops,
                         epochs=FLAGS.epochs,
                         embedding_size=FLAGS.embedding_size,
-                        description="all_intent_memory_network")
+                        description="all_intent_memory_network")'''
 
 
     # chatbot.run()
@@ -316,7 +342,7 @@ if __name__ == '__main__':
         time.sleep(10)
         transaction_history_model.train()
         time.sleep(10)
-        all_intent_model.train()
+        #all_intent_model.train()
 
     print("Testing All Single Memory Networks ")
     
@@ -328,7 +354,7 @@ if __name__ == '__main__':
     
     transaction_history_model.test()
     
-    all_intent_model.test()
+    #all_intent_model.test()
     
     
     restaurant_model.dialog_analysis(file_directory="Restaurant_Data_Analysis/",file_name="restaurant_analysis.txt")
@@ -339,11 +365,11 @@ if __name__ == '__main__':
     
     transaction_history_model.dialog_analysis(file_directory="Transaction_History_Data_Analysis/",file_name="transaction_history_analysis.txt")
     
-    all_intent_model.dialog_analysis(file_directory="All_Intent_Data_Analysis",file_name="all_intent_analysis.txt")
+    #all_intent_model.dialog_analysis(file_directory="All_Intent_Data_Analysis",file_name="all_intent_analysis.txt")
 
 
     restaurant_model.close_session()
     transaction_model.close_session()
     account_balance_model.close_session()
     transaction_history_model.close_session()
-    all_intent_model.close_session()
+    #all_intent_model.close_session()

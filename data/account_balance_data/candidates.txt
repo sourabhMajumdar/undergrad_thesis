@@ -1,0 +1,34 @@
+1 You have the following accounts : Credit , which one do you wish ?
+1 which account do you want to check ?
+1 end_call Denied to change account
+1 api_call:check_account_api user_account:Savings
+1 how can i help you today ?
+1 end_call your current balance for account is 400
+1 It seems that you have not entered a valid account, you available accounts are Checkin,Credit, would you like change the source account ?
+1 api_call:initial_slot_check, user_account:Savings
+1 end_call your current balance for account is 3000
+1 api_call:request_account_api
+1 You have the following accounts : Checkin,Credit , which one do you wish ?
+1 api_call:check_balance_api, user_account:Savings
+1 It seems that you have not entered a valid account, you available accounts are Checkin, would you like change the source account ?
+1 You have the following accounts : Credit,Savings , which one do you wish ?
+1 It seems that you have not entered a valid account, you available accounts are Savings, would you like change the source account ?
+1 api_call:check_balance_api, user_account:Checkin
+1 end_call your current balance for account is 8000
+1 You have the following accounts : Checkin,Savings , which one do you wish ?
+1 It seems that you have not entered a valid account, you available accounts are Checkin,Savings, would you like change the source account ?
+1 You have the following accounts : Checkin , which one do you wish ?
+1 api_call:initial_slot_check, user_account:Credit
+1 api_call:check_account_api user_account:Credit
+1 end_call your current balance for account is 1300
+1 It seems that you have not entered a valid account, you available accounts are Credit, would you like change the source account ?
+1 You have the following accounts : Checkin,Credit,Savings , which one do you wish ?
+1 It seems that you have not entered a valid account, you available accounts are Credit,Savings, would you like change the source account ?
+1 api_call:check_account_api user_account:Checkin
+1 You have the following accounts : Savings , which one do you wish ?
+1 api_call:check_account_api, user_account:Credit
+1 api_call:initial_slot_check, user_account:Checkin
+1 end_call error in processing request !!
+1 api_call:check_account_api, user_account:Savings
+1 api_call:check_balance_api, user_account:Credit
+1 api_call:check_account_api, user_account:Checkin

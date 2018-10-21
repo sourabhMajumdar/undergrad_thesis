@@ -121,21 +121,41 @@ class SingleMemoryNetwork(object):
             nid += 1
 
 
-    def print_results(self,cost,accuracy,description) :
+    def print_results(self,cost,avg_cost,accuracy,description,fbeta_score) :
         print("---------------------RESULTS FOR {}----------------------".format(description))
         print("\n=====================> {} cost     = {}".format(description,str(cost)))
-        print("=====================> {} accuracy = {}% \n".format(description,str(accuracy*100)))
+        print("=======================> {} avg cost = {}".format(description,str(avg_cost)))
+        print("=====================> {} accuracy = {}%".format(description,str(accuracy*100)))
+        print("=====================> {} fbeta score = {} \n".format(description,str(fbeta_score)))
         print("-------------------------------><---------------------------------------------")
 
-    def display_results(self,train_cost_list,val_cost_list,epoch_list) :
+    def display_results(self,train_cost_list,avg_train_cost_list,train_fbeta_list,val_cost_list,avg_val_cost_list,val_fbeta_list,epoch_list) :
+
+        
+        plt.subplot(2,1,1)
+        plt.title(self.description + "_performance")
         plt.plot(epoch_list,train_cost_list,'b',label='train_cost')
         plt.plot(epoch_list,val_cost_list,'r',label='val_cost')
-        red_patch = mpatches.Patch(color='red',label='Validation Cost')
-        blue_patch = mpatches.Patch(color='blue',label='Training Cost')
+        plt.plot(epoch_list,avg_train_cost_list,'y',label='avg_train_cost_list')
+        plt.plot(epoch_list,avg_val_cost_list,'g',label='avg_val_cost')
         plt.xlabel('#Epochs')
         plt.ylabel('Cost')
-        plt.title(self.description + "_performance")
-        plt.legend(handles=[red_patch,blue_patch],loc='upper right')
+        red_patch = mpatches.Patch(color='red',label='Validation Cost')
+        blue_patch = mpatches.Patch(color='blue',label='Training Cost')
+        yellow_patch = mpatches.Patch(color='yellow',label='Average Training Cost')
+        green_patch = mpatches.Patch(color='green',label='Average Validation Cost')
+        plt.legend(handles=[red_patch,green_patch,yellow_patch,blue_patch],loc='upper right')
+
+        plt.subplot(2,1,2)
+        red_beta_patch = mpatches.Patch(color='blue',label='train_fbeta_score')
+        blue_beta_patch = mpatches.Patch(color='red',label='val_fbeta_score')
+        plt.legend(handles=[red_beta_patch,blue_beta_patch],loc='upper right')
+        plt.plot(epoch_list,train_fbeta_list,'b',label='train_fbeta_score')
+        plt.plot(epoch_list,val_fbeta_list,'r',label='val_fbeta_score')
+        plt.xlabel('#Epochs')
+        plt.ylabel('fbeta_score')
+
+        
         plt.show()
         plt.pause(0.01)
 
@@ -161,9 +181,15 @@ class SingleMemoryNetwork(object):
         
         best_validation_accuracy = 0
         best_validation_cost = 99999
+
         epoch_list = list()
         train_cost_list = list()
         val_cost_list = list()
+        avg_train_cost_list = list()
+        avg_val_cost_list = list()
+        train_fbeta_list = list()
+        val_fbeta_list = list()
+
         for t in range(1, self.epochs + 1):
             np.random.shuffle(batches)
             total_train_cost = 0.0
@@ -175,12 +201,24 @@ class SingleMemoryNetwork(object):
                 a = trainA[start:end]
                 cost_t = self.model.batch_fit(s, q, a)
                 total_train_cost += cost_t
-            epoch_list.append(t)
-            train_cost_list.append(total_train_cost)
 
             train_preds = self.batch_predict(trainS, trainQ, n_train)
             train_acc = metrics.accuracy_score(np.array(train_preds), trainA)
-            self.print_results(cost=total_train_cost,accuracy=train_acc,description="training")
+            train_fbeta_score = metrics.fbeta_score(np.array(train_preds),trainA,beta=9999,average='micro')
+            train_fbeta_list.append(train_fbeta_score)
+
+            epoch_list.append(t)
+            total_avg_train_cost = float(total_train_cost)/len(batches)
+            train_cost_list.append(total_train_cost)
+
+            avg_train_cost_list.append(total_avg_train_cost)
+
+
+            self.print_results(cost=total_train_cost,
+                avg_cost=total_avg_train_cost,
+                accuracy=train_acc,
+                fbeta_score=train_fbeta_score,
+                description="training")
 
 
 
@@ -192,13 +230,29 @@ class SingleMemoryNetwork(object):
                 a = valA[start:end]
                 cost_val = self.model.batch_compute_loss(s,q,a)
                 total_val_cost += cost_val
+
+            total_avg_val_cost  = float(total_val_cost)/len(val_batches)
+
             val_cost_list.append(total_val_cost)
+            avg_val_cost_list.append(total_avg_val_cost)
             val_preds = self.batch_predict(valS, valQ, n_val)
             val_acc = metrics.accuracy_score(val_preds, valA)
+            val_fbeta_score = metrics.fbeta_score(val_preds,valA,beta=9999,average='micro')
+            val_fbeta_list.append(val_fbeta_score)
 
-            self.print_results(cost=total_val_cost,accuracy=val_acc,description="validation")
+            self.print_results(cost=total_val_cost,
+                avg_cost=total_avg_val_cost,
+                accuracy=val_acc,
+                fbeta_score=val_fbeta_score,
+                description="validation")
 
-            self.display_results(train_cost_list=train_cost_list,val_cost_list=val_cost_list,epoch_list=epoch_list)
+            self.display_results(train_cost_list=train_cost_list,
+                avg_train_cost_list=avg_train_cost_list,
+                train_fbeta_list=train_fbeta_list,
+                val_cost_list=val_cost_list,
+                avg_val_cost_list=avg_val_cost_list,
+                val_fbeta_list=val_fbeta_list,
+                epoch_list=epoch_list)
 
             if t % self.evaluation_interval == 0:
                 train_preds = self.batch_predict(trainS, trainQ, n_train)
@@ -229,7 +283,13 @@ class SingleMemoryNetwork(object):
                     self.saver.save(self.sess, os.path.join(self.model_dir,'model.ckpt'), global_step=t)
 
         
-        self.display_results(train_cost_list=train_cost_list,val_cost_list=val_cost_list,epoch_list=epoch_list)
+        self.display_results(train_cost_list=train_cost_list,
+            avg_train_cost_list=avg_train_cost_list,
+            train_fbeta_list=train_fbeta_list,
+            val_cost_list=val_cost_list,
+            avg_val_cost_list=avg_val_cost_list,
+            val_fbeta_list=val_fbeta_list,
+            epoch_list=epoch_list)
         save_image_name = self.description + "_performance.png"
 
         if not os.path.exists(self.performance_directory) :
@@ -271,12 +331,14 @@ class SingleMemoryNetwork(object):
             nid += 1
 
     def load_saved_model(self) :
+        print("model directory : {}".format(self.model_dir))
         ckpt = tf.train.get_checkpoint_state(self.model_dir)
         
         if ckpt and ckpt.model_checkpoint_path:
             self.saver.restore(self.sess, ckpt.model_checkpoint_path)
         else:
             print("...no checkpoint found...")
+        print("successfully loaded saved model")
     def predict_and_converse(self,context,user_utterance,nid,bot_utterance) :
         u = None
         r = None
