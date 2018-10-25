@@ -9,7 +9,7 @@ Before we begin, we must be clear what we mean by Data Collection.
 If you have read the description of the project website, then you know that we use the method proposed by [ **Dialog Self-Play** ](<https://arxiv.org/abs/1801.04871>) by **Google**
 
 The way we try to model this approach is by breaking down each conversation between a bot and a user as a set of **Actions**. 
-Why we do this is because we each conversation between a user and a bot is more than a couple of utterances.
+Why we do this is because each conversation between a user and a bot is more than a couple of utterances.
 There are also api_calls and checks needed to be done by the bot in-order to complete the task intended by the user.
 The best way to model this by considering each interaction as a set of actions.
 
