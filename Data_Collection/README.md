@@ -20,7 +20,7 @@ is by saying something like "I intend to leave from **Verona** airport". or "Dep
 We try to see both of the above utterance as a natural language template, something like "I intend to leave from **{departure_airport}** " and 
 "Departure airport is **{departure_ariport}**".
 
-Simmilary we intend to collect simmilar templates for each actions and eventually substitute the slot in the template by it's corrsponding value.
+Simmilary we intend to collect simmilar templates for each action and eventually substitute the slot in the template by it's corrsponding value.
 And by data, we mean that we intend to collect these templates
 
 ## Understanding the Spread sheet
