@@ -73,9 +73,39 @@ To run Multiple Memory Network, navigate to the folder *Multiple Memory Network*
 python multiple_memory_network.py --train=True --epochs=200 --embedding_size=20
 ```
 
-**Step#4 Results**
+**Step#4 Run TF-IDF model**
+
+TF-IDF is information retreival model (*No Machine Learning*) and assigns _**T**erm-**Frequency**-**I**nverse**D**ocument**F**requency_ score to each candidate in our list of candidates and outputs the candidate with the highest *TF-IDF* score.
+
+The **TF-IDF** score is calcutates for each candidate and our *current context* which happens to be the conversation uptill now.
+
+To run and test this model, navigate to the directory named *td_idf_model* and run the following command
+```python
+python tf-idf_model.py
+```
+
+Now you will be prompted to entrire to enter a *data_dir*, simply mention your directory as *"../data/[NAME OF YOUR DATA FOLDER]"*.
+
+Now you will be asked to entire the number of lines to process. This is the number of *user_utterances* you want to check.
+**Note** : The average time to process one user_utterance may be as high as 11 seconds or higher, so be careful to enter an realistic value to see your results in time.
+
+
+**Step#5 Run Nearest Neighbor model**
+
+Just like the *TF-IDF* model, ***Nearest Neighbor*** tries to find the most simmilar conversation in the data-set and then returns the *bot utterance* from that conversation.
+
+To run this model, simply navigate to the directory named *Nearest Neighbor* and run the command
+```python
+python nearest_neighbor.py
+```
+Now again like the previous case, you will be prompted to enter a directory for the data, mention it as *"../data/[NAME OF YOUR DATA FOLDER]"*
+
+Now you will see the *Per-Response* and *Per-Dialog* Accuracy of the model.
+
+**Step#6 Results**
 
 Currently there is no separate folder to see results, you can see the **per-response** and **per-dialog accuracy**, after the training and the training and validation charts in the *Performance Charts* folder. 
+
 
 If you have any questions, feel free to contact on the email provided below.
 Ciao !!!!!
