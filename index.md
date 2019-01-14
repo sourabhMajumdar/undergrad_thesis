@@ -1,4 +1,4 @@
-## Neural Approaches toward Domain independent dialog system
+## Deep Learning Approaches to Low Resource Task Oriented Dialog System
 
 Before we begin, let me introduce myself. 
 Hello, my name is Sourabh Majumdar and I am a final year undergraduate student at BITS-Pilani,Goa.
