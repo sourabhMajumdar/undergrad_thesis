@@ -1,0 +1,96 @@
+It is implemented with Python 3
+
+To create the dialogues from the templates:
+--------------------------------------
+the file : create_dialogs.py
+
+to-change:
+    line 83: dialog_templates=transaction_templates,
+    basically define :
+    transaction_dialogs = create_dialogs(User=Transaction_user,
+                                     Bot=Transaction_bot,
+                                     number_of_dialogs=required_number_of_dialogs,
+                                     dialog_templates=transaction_templates,
+                                     list_of_user_profiles=list_of_user_profiles,
+                                     user_values=user_values,
+                                     turn_compression=False,
+                                     new_api=False,
+                                     re_order=False,
+                                     another_slot=False,
+                                     audit_more=False)
+
+The generated data will be saved in /data folder.
+
+
+*************************************************************************************************************
+
+If one wants to add new intents:
+--------------------------------------
+    1- Put the appropriate bot in the Bot folder. The FSM structure of each intent stays in the relevant py file.
+    2- Put the appropriate user in the User folder. These files hold the actions of a user player.
+    3- And you have to replicate each code block in the create_dialogs file as it is exemplified by other already implemented intents.
+    4- And run the create_dialogs file.
+
+    5- If you want to generate only one intent and not generate everything again:
+        to be updated : - start_dialogs_train
+                        - one_dialogs_all
+                        - start_dialogs_all
+                        - special_dialogs...
+                        - create_candidates(file_directory="../data/start_data/",file_name="candidates.txt",dialogs=start_dialogs_all)
+                        - create_candidates(file_directory="../data/one_data/",file_name="candidates.txt",dialogs=one_dialogs_all)
+
+*************************************************************************************************************
+
+
+To run Single Memory Network
+--------------------------------------
+
+python /Single_Memory_Network/experiment.py
+train=True
+pipeline_testing=True  # loads the data and runs it only for 1 epoch and tests it on 100 examples.
+                       # It performs the verification of the pipeline. Change it to False after verification to train the actual model.
+mult_oop=True # to test multiple oop in one dialogue
+
+
+model is saved in : ../Single_Memory_Network/Multiple_Intent/All_Intent_{}/Memory_Network_Model
+performance (log files) are also saved in a similar directory, which can be found in the code.
+
+*************************************************************************************************************
+
+
+To run Multiple Memory Network
+--------------------------------------
+
+python /Multiple_Memory_Network/experiment.py
+same flags with the SMM
+
+Instead of the parameters, we give parameter dictionaries for multiple intent definitions.
+
+One single run time will be enough to get the results.
+
+
+How to test for Complete and Redced Search Space
+------------------------------------------------
+
+1. Create the /data folder by running the command python /Dialog_Generator/create_dialogs.py --number_of_dialogs=[NUMBER OF DIALOGS]
+
+This will create the data for the Reduced Search Space.
+
+2. Make a copy of this /data folder and make the changes in this particular folder.
+
+3. Now copy the /data/one_dialog/candidates.txt file to the rest of the folders i.e. /data/transaction_data/, /data/account_balance_data/, ... etc.
+
+
+Note : When deciding which data set to use, always keep the respective /data folder inside the /final_draft_6677
+
+Example : To test Reduced search space, place /data (original one) inside the folder /final_draft_6677
+Example : To test Complete search space, place /data (the copied one) inside the folder /final_draft_6677
+
+
+For Baselines
+-----------------------------------------------
+TF-IDF
+python /tf_idf_model/experiment.py
+Nearest Neighbor
+python /Nearest_Neighbor/experiment.py
+
