@@ -1,8 +1,9 @@
-## Neural Approaches toward Domain independent dialog system
+## Deep Learning Approaches for Low-Resource Task Oriented Conversational Agents Using Synthetic Data Generation Techniques
 
 Before we begin, let me introduce myself. 
 Hello, my name is Sourabh Majumdar and I am a final year undergraduate student at BITS-Pilani,Goa.
-This project is my undergraduate thesis and as you can probably guess, the topic is "Neural Approaches toward domain indpndent dialog system".
+This project is my undergraduate thesis and as you can probably guess, the topic is "Deep Learning Approaches for Low-Resource Task Oriented Conversational Agents Using Synthetic Data Generation Techniques
+".
 I am currently doing this thesis under the supervision of [ **Dr. Marco Guerini** ](<mailto:guerini@fbk.eu>) at Fondazione Bruno Kessler,Trento,Italy
 
 ### Description of the project
@@ -59,7 +60,7 @@ Single Memory Network uses one memory network to handle all the tasks given in t
 To run the single memory network, navigate to the *Single Memory Network* folder and run the following command
 
 ```python
-python single_memory_network.py --train=True --epochs=200 --embedding_size=20
+python experiment.py --train=True --epochs=200 --embedding_size=20
 ```
 feel free to experiment with the arguements.
 
@@ -70,15 +71,8 @@ What I mean to say is that there is a dedicated memory task for each task and on
 
 To run Multiple Memory Network, navigate to the folder *Multiple Memory Network* and run the following command
 ```python
-python multiple_memory_network.py --train=True --epochs=200 --embedding_size=20
+python experiment.py --train=True --epochs=200 --embedding_size=20
 ```
-
-**Step#4 Results**
-
-Currently there is no separate folder to see results, you can see the **per-response** and **per-dialog accuracy**, after the training and the training and validation charts in the *Performance Charts* folder. 
-
-If you have any questions, feel free to contact on the email provided below.
-Ciao !!!!!
 
 ### Resources
 
